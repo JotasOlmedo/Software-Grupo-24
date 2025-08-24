@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buscar Cilindros</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Volver -->
+    <div class="mb-6">
+      <a href="Dashboard.html" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-4 transition-colors duration-200">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+      </a>
+      <!-- Encabezado -->
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-2xl mb-4 shadow-lg">
+          <i data-lucide="search" class="w-8 h-8 text-white"></i>
+        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Buscar Cilindros</h1>
+        <p class="text-gray-600">Filtrar cilindros por tipo y estado</p>
+      </div>
+    </div>
+
+    <!-- Filtros -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 mb-6">
+      <h2 class="text-lg font-semibold text-gray-900 flex items-center gap-2 mb-2">
+        <i data-lucide="filter" class="w-5 h-5"></i> Filtros de Búsqueda
+      </h2>
+      <p class="text-gray-600 mb-4">Seleccione los criterios para filtrar los cilindros</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <label class="text-sm font-medium text-gray-700 block mb-1">Tipo de Cilindro</label>
+          <select id="busquedaTipo" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Todos los tipos</option>
+            <option value="5kg">5 kg</option>
+            <option value="11.5kg">11 kg</option>
+            <option value="15kg">15 kg</option>
+            <option value="45kg">45 kg</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700 block mb-1">Estado</label>
+          <select id="busquedaEstado" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Todos los estados</option>
+            <option value="Lleno">Lleno</option>
+            <option value="Vacío">Vacío</option>
+          </select>
+        </div>
+        <div class="flex items-end">
+          <button id="btnBuscarCilindros" class="w-full h-12 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md shadow flex items-center justify-center gap-2">
+            <i data-lucide="search" class="w-4 h-4"></i> Buscar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resultados -->
+    <div id="resultados" class="hidden bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">Resultados de Búsqueda</h2>
+      <p class="text-gray-600 mb-4" id="resumenResultados"></p>
+      <div id="tablaResultados"></div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="js/buscarCilindros.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

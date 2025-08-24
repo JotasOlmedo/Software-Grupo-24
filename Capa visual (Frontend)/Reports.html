@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reportes Diarios</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+  <style>
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-green-50 via-white to-green-50 p-4">
+  <div class="max-w-6xl mx-auto">
+    <a href="Dashboard.html" class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 mb-4">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+    </a>
+
+    <div class="text-center mb-6">
+      <div class="inline-flex items-center justify-center w-16 h-16 bg-green-600 rounded-2xl mb-4 shadow-lg">
+        <i data-lucide="file-text" class="w-8 h-8 text-white"></i>
+      </div>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Generar Reportes</h1>
+      <p class="text-gray-600">Reportes diarios del inventario de cilindros</p>
+    </div>
+
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 space-y-6">
+      <div class="text-center">
+        <div class="flex justify-center items-center gap-2 mb-2">
+          <i data-lucide="calendar" class="w-5 h-5 text-green-600"></i>
+          <h2 class="text-xl font-semibold text-gray-900" id="fechaActual">Reporte Diario</h2>
+        </div>
+        <p class="text-gray-600">Resumen del inventario de cilindros actualizado</p>
+      </div>
+
+      <div id="alertaExito" class="hidden bg-green-50 border border-green-200 rounded-lg p-4">
+        <div class="flex items-center gap-3">
+          <i data-lucide="check-circle" class="w-5 h-5 text-green-600"></i>
+          <div>
+            <p class="text-sm font-medium text-green-900">Reporte generado correctamente</p>
+            <p class="text-sm text-green-700">El archivo ha sido descargado a su dispositivo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button id="btnExportarPDF" class="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 h-12 rounded shadow">
+          <i data-lucide="download" class="w-4 h-4"></i> <span>Exportar a PDF</span>
+        </button>
+        <button id="btnExportarExcel" class="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 h-12 rounded shadow">
+          <i data-lucide="download" class="w-4 h-4"></i> <span>Exportar a Excel</span>
+        </button>
+      </div>
+
+      <div class="overflow-x-auto rounded-lg border">
+        <table class="min-w-full text-sm">
+          <thead class="bg-gray-50 text-gray-700">
+            <tr>
+              <th class="text-left p-2">Tipo de Cilindro</th>
+              <th class="text-left p-2">Cantidad</th>
+              <th class="text-left p-2">Estado</th>
+              <th class="text-left p-2">Total por Tipo</th>
+            </tr>
+          </thead>
+          <tbody id="tablaReporte"></tbody>
+        </table>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
+          <div class="text-2xl font-bold text-blue-600" id="totalCilindros">0</div>
+          <div class="text-sm text-blue-700">Total Cilindros</div>
+        </div>
+        <div class="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
+          <div class="text-2xl font-bold text-green-600" id="totalLlenos">0</div>
+          <div class="text-sm text-green-700">Cilindros Llenos</div>
+        </div>
+        <div class="bg-orange-50 border border-orange-200 rounded-lg p-4 text-center">
+          <div class="text-2xl font-bold text-orange-600" id="totalVacios">0</div>
+          <div class="text-sm text-orange-700">Cilindros Vacíos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/generarReporte.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

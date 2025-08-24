@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modificar Estado de Cilindros</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Volver -->
+    <div class="mb-6">
+      <a href="Dashboard.html" class="inline-flex items-center gap-2 text-orange-600 hover:text-orange-800 mb-4 transition-colors duration-200">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+      </a>
+      <!-- Encabezado -->
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-orange-600 rounded-2xl mb-4 shadow-lg">
+          <i data-lucide="settings" class="w-8 h-8 text-white"></i>
+        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Modificar Estado de Cilindros</h1>
+        <p class="text-gray-600">Cambiar el estado de cilindros en el inventario</p>
+      </div>
+    </div>
+
+    <!-- Filtros -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 mb-6">
+      <h2 class="text-lg font-semibold text-gray-900 flex items-center gap-2 mb-2">
+        <i data-lucide="filter" class="w-5 h-5"></i> Filtros de Búsqueda
+      </h2>
+      <p class="text-gray-600 mb-4">Filtre los cilindros por tipo o estado actual</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label for="filtroTipo" class="text-sm font-medium text-gray-700 block mb-1">Filtrar por Tipo</label>
+          <select id="filtroTipo" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Todos los tipos</option>
+            <option value="5kg">5 kg</option>
+            <option value="11.5kg">11 kg</option>
+            <option value="15kg">15 kg</option>
+            <option value="45kg">45 kg</option>
+          </select>
+        </div>
+        <div>
+          <label for="filtroEstado" class="text-sm font-medium text-gray-700 block mb-1">Filtrar por Estado</label>
+          <select id="filtroEstado" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Todos los estados</option>
+            <option value="Lleno">Lleno</option>
+            <option value="Vacío">Vacío</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabla de cilindros -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 mb-6">
+      <h2 class="text-lg font-semibold text-gray-900 mb-2">Lista de Cilindros (<span id="totalCilindros">0</span>)</h2>
+      <p class="text-gray-600 mb-4">Seleccione los cilindros para cambiar su estado</p>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-sm" id="tablaCilindrosT">
+          <thead class="text-gray-700 bg-gray-100">
+            <tr>
+              <th class="p-2"><input type="checkbox" id="checkAllCilindros" /></th>
+              <th class="p-2 text-left">ID</th>
+              <th class="p-2 text-left">Tipo</th>
+              <th class="p-2 text-left">Estado</th>
+              <th class="p-2 text-left">Ubicación</th>
+            </tr>
+          </thead>
+          <tbody id="tablaCilindros"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="bg-white shadow-xl rounded-xl p-6 mt-6 space-y-4">
+      <h2 class="text-lg font-semibold text-gray-800">
+        Cambiar Estado (<span id="cantidadSeleccionados">0</span> seleccionados)
+      </h2>
+      <p class="text-sm text-gray-500">Seleccione el nuevo estado para los cilindros seleccionados</p>
+
+      <select id="nuevoEstado" class="w-full h-12 border border-gray-300 rounded-md px-3">
+        <option value="">Seleccione el nuevo estado...</option>
+        <option value="Lleno">Lleno</option>
+        <option value="Vacío">Vacío</option>
+      </select>
+
+      <button id="btnActualizarEstado"
+        class="w-full h-12 bg-orange-600 hover:bg-orange-700 text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl rounded-md flex items-center justify-center gap-2">
+        <i data-lucide="rotate-ccw" class="w-4 h-4"></i>
+        <span>Guardar Cambios</span>
+      </button>
+
+      <p id="mensajeCambio" class="text-sm text-center mt-2"></p>
+    </div>
+
+
+  <p id="mensajeCambio"></p>
+
+  <script src="js/estadoCilindros.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

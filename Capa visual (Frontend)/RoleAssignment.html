@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asignación de Roles</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-50 via-white to-purple-50 p-4">
+
+  <div class="max-w-4xl mx-auto">
+    <!-- Volver -->
+    <div class="mb-6">
+      <a href="Dashboard.html" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 mb-4 transition-colors duration-200">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        Volver al panel de administración
+      </a>
+
+      <!-- Encabezado -->
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-purple-600 rounded-2xl mb-4 shadow-lg">
+          <i data-lucide="user-check" class="w-8 h-8 text-white"></i>
+        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Asignación de Roles</h1>
+        <p class="text-gray-600">Gestiona los permisos y roles de los usuarios del sistema</p>
+      </div>
+    </div>
+
+    <!-- Tarjeta -->
+    <form id="formAsignarRol">
+      <div class="shadow-2xl border-0 bg-white/80 backdrop-blur-sm rounded-xl p-6 space-y-6">
+        <h2 class="text-xl font-semibold text-center text-gray-900">Asignar Rol a Usuario</h2>
+        <p class="text-center text-gray-600">Selecciona un usuario y asígnale un rol específico en el sistema</p>
+      
+        <!-- Selector de usuario -->
+        <div>
+          <label for="usuario" class="text-sm font-medium text-gray-700 flex items-center gap-2 mb-1">
+            <i data-lucide="users" class="w-4 h-4"></i>
+            Seleccionar Usuario
+          </label>
+          <select id="selectUsuario" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Elige un usuario...</option>
+          </select>
+        </div>
+
+        <!-- Selector de rol -->
+        <div>
+          <label for="rol" class="text-sm font-medium text-gray-700 flex items-center gap-2 mb-1">
+            <i data-lucide="shield" class="w-4 h-4"></i>
+            Seleccionar Rol
+          </label>
+          <select id="selectRol" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Elige un rol...</option>
+          </select>
+        </div>
+
+        <!-- Vista previa -->
+        <div id="preview" class="hidden bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <div class="flex items-center gap-3">
+            <i data-lucide="check-circle" class="w-5 h-5 text-blue-600"></i>
+            <div>
+              <p class="text-sm font-medium text-blue-900">Vista previa de asignación:</p>
+              <p class="text-sm text-blue-700" id="previewText"></p>
+            </div>
+          </div>
+        </div>
+
+          <!-- Botón -->
+          <button 
+            type="submit"
+            id="btnGuardar"
+            class="w-full h-12 bg-blue-600 hover:bg-blue-700 text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 rounded-md flex justify-center items-center gap-2"
+          >
+            <i data-lucide="user-check" class="w-4 h-4"></i>
+            <span>Guardar Rol</span>
+          </button>
+        </div>
+    </form>
+    <p id="mensajeRol"></p>
+
+    <!-- Footer -->
+    <div class="text-center mt-8 text-xs text-gray-500">
+      <p>© 2024 Sistema de Inventario. Gestión de roles y permisos.</p>
+    </div>
+  </div>
+  <script src="js/roleAssignment.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
