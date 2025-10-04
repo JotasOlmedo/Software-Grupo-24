@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="51vu5nxpbcDCP6p-U70N">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="140" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="50" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VDljVW8FqCD2rWRck5Mf-2">
+          <mxGeometry x="20" y="150" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VDljVW8FqCD2rWRck5Mf-3">
+          <mxGeometry x="15" y="80" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="455" y="140" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VDljVW8FqCD2rWRck5Mf-4">
+          <mxGeometry x="15" y="330" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="705" y="140" width="40" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VDljVW8FqCD2rWRck5Mf-5">
+          <mxGeometry x="15" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="555" y="140" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VDljVW8FqCD2rWRck5Mf-6">
+          <mxGeometry x="15" y="90" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VDljVW8FqCD2rWRck5Mf-6">
+          <mxGeometry x="15" y="250" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-7" value="1. Accede a gestión de cilindros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="VDljVW8FqCD2rWRck5Mf-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-120" y="210" as="sourcePoint" />
+            <mxPoint x="-40" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-8" value="2. Solicitar lista de cilindros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-2" target="VDljVW8FqCD2rWRck5Mf-33">
+          <mxGeometry x="0.0061" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="170" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-9" value="3. Obtener cilindros registrado" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-33" target="VDljVW8FqCD2rWRck5Mf-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="250" as="sourcePoint" />
+            <mxPoint x="489.5" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-10" value="4. Devolver lista" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.5" y="280" as="sourcePoint" />
+            <mxPoint x="285" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-11" value="5. Enviar lista" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.5" y="300" as="sourcePoint" />
+            <mxPoint x="80" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-12" value="6. Mostrar cilindros" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74.5" y="330" as="sourcePoint" />
+            <mxPoint x="-120.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-13" value="7. Cambiar estado de un cilindro" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="VDljVW8FqCD2rWRck5Mf-30">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-120.5" y="360" as="sourcePoint" />
+            <mxPoint x="74.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-14" value="8. Enviar ID y nuevo estado" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="VDljVW8FqCD2rWRck5Mf-33">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="390" as="sourcePoint" />
+            <mxPoint x="279.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-15" value="9. Actualizar estado cilindro" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-33" target="VDljVW8FqCD2rWRck5Mf-36">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="279.5" y="410" as="sourcePoint" />
+            <mxPoint x="559.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-16" value="10. Confirmar modificación de cilindro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574.5" y="440" as="sourcePoint" />
+            <mxPoint x="285" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-17" value="11. Solicitar registro en historial" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="VDljVW8FqCD2rWRck5Mf-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="490" as="sourcePoint" />
+            <mxPoint x="460" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-18" value="12. Registrar acción (usuario, acción, hora)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="VDljVW8FqCD2rWRck5Mf-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="510" as="sourcePoint" />
+            <mxPoint x="724.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-19" value="13. Confirmar registro en historial" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="550" as="sourcePoint" />
+            <mxPoint x="480" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-20" value="14. Confirma registro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="570" as="sourcePoint" />
+            <mxPoint x="285" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-21" value="15. Confirmación de cambio exitoso" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5" y="590" as="sourcePoint" />
+            <mxPoint x="74.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-22" value="16. Mostrar mensaje de éxito" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="VDljVW8FqCD2rWRck5Mf-2" target="VDljVW8FqCD2rWRck5Mf-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="610" as="sourcePoint" />
+            <mxPoint x="-10" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-23" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Jefe de bodega&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;V_GestionCilindros&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;C_cilindroController&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="215" y="111" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-26" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;C_historialController&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Cilindro&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="545" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Historial&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="690" y="110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDljVW8FqCD2rWRck5Mf-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;CU08 - Modificando el estado del cilindro&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

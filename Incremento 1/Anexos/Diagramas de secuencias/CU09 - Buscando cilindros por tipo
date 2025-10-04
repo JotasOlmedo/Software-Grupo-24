@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="_EpgZzd9LOYy_LdpZFSc">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eFuvp-8R1keFdcTCKl6u-2">
+          <mxGeometry x="20" y="60" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eFuvp-8R1keFdcTCKl6u-2">
+          <mxGeometry x="20" y="120" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-5" value="1. Accede al modulo de gestión de cilindros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="eFuvp-8R1keFdcTCKl6u-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="425" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-6" value="2. Mostrar interfaz con filtros" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-4" target="eFuvp-8R1keFdcTCKl6u-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-9" value="8. Mostrar tabla con cilindros filtrados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-7" target="eFuvp-8R1keFdcTCKl6u-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-8" value="3. Seleccionar filtros (tipo y/o estado)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-1" target="eFuvp-8R1keFdcTCKl6u-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eFuvp-8R1keFdcTCKl6u-11">
+          <mxGeometry x="15" y="145" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-13" value="4. Envíar criterios de búsqueda" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-2" target="eFuvp-8R1keFdcTCKl6u-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-14" value="7. Envíar resultados de búsqueda" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-12" target="eFuvp-8R1keFdcTCKl6u-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-15" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eFuvp-8R1keFdcTCKl6u-15">
+          <mxGeometry x="20" y="165" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-17" value="5. Consultar cilindros con filtros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-11" target="eFuvp-8R1keFdcTCKl6u-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-18" value="6. Retornar cilindros filtrados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="eFuvp-8R1keFdcTCKl6u-16" target="eFuvp-8R1keFdcTCKl6u-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-19" value="Usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-20" value="V_GestionCIlindros" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-21" value="C_cilindroController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eFuvp-8R1keFdcTCKl6u-22" value="Cilindro" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

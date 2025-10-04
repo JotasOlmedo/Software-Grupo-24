@@ -1,0 +1,246 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="xmzjqw4e4Rw71_GWZNgY">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="20" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Administrador&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="50" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9mu56Nuvme5PHu8f3ZsC-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-3">
+          <mxGeometry x="20" y="140" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;V_AsignarRol&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-6">
+          <mxGeometry x="15" y="200" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="550" y="20" width="40" height="499" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="660" y="21" width="40" height="499" as="geometry" />
+        </mxCell>
+        <mxCell id="9mu56Nuvme5PHu8f3ZsC-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-8">
+          <mxGeometry x="15" y="99" width="10" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="760" y="20" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-10" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="860" y="21" width="40" height="499" as="geometry" />
+        </mxCell>
+        <mxCell id="9mu56Nuvme5PHu8f3ZsC-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-10">
+          <mxGeometry x="15" y="300" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-11" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-120" y="90" as="sourcePoint" />
+            <mxPoint x="85" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="15" y="90" />
+              <mxPoint x="15" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1. Selecciona usuario para asignar rol&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-11">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-13" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="f7Ms5PoCPDxHoCXg7qSe-3" target="f7Ms5PoCPDxHoCXg7qSe-5">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="90" y="110" as="sourcePoint" />
+            <mxPoint x="230" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="110" />
+              <mxPoint x="170" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-14" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Solicitar roles disponibles&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-13">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;C_RolController&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;C_UsuarioController&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-9" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-18" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="9mu56Nuvme5PHu8f3ZsC-2">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="240" y="130" as="sourcePoint" />
+            <mxPoint x="670" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="130" />
+              <mxPoint x="570" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Consultar roles en base de datos&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-18">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-21" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Rol&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-10" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Usuario&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-23" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Historial&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="845" y="-10" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;C_Historial&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-9" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-25" value="4. Lista de roles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="160" as="sourcePoint" />
+            <mxPoint x="240.0999999999999" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-26" value="5. Mostrar lista de roles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="sourcePoint" />
+            <mxPoint x="90" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-27" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-120" y="200" as="sourcePoint" />
+            <mxPoint x="80" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="200" />
+              <mxPoint x="40" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;6. Elige rol para el usuario&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-27">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-34" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="90" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="220" />
+              <mxPoint x="170" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;7. Enviar usuario y rol seleccionados&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-34">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-37" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="f7Ms5PoCPDxHoCXg7qSe-36" target="f7Ms5PoCPDxHoCXg7qSe-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="410" y="240" as="sourcePoint" />
+            <mxPoint x="570" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="240" />
+              <mxPoint x="440" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-38" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;8. Actualizar campo de rol&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-37">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-39" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="950" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-40" value="9. Confirmación de actualización" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" target="f7Ms5PoCPDxHoCXg7qSe-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="280" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-41" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="f7Ms5PoCPDxHoCXg7qSe-7">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="405" y="310" as="sourcePoint" />
+            <mxPoint x="560" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="310" />
+              <mxPoint x="530" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-42" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;10. Solicitar registro en historial&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-41">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-43" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="9mu56Nuvme5PHu8f3ZsC-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="570" y="330" as="sourcePoint" />
+            <mxPoint x="870" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="330" />
+              <mxPoint x="800" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-44" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;11. Guardar acción (usuarioAdmin, detalle)&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="f7Ms5PoCPDxHoCXg7qSe-43">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-45" value="12. Confirmación de registro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="874.83" y="360" as="sourcePoint" />
+            <mxPoint x="569.9966666666668" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-46" value="13. Registro confirmado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" target="f7Ms5PoCPDxHoCXg7qSe-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="384.52" as="sourcePoint" />
+            <mxPoint x="490" y="384.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-47" value="14. Mostrar mensaje &quot;Rol asignado correctamente&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="f7Ms5PoCPDxHoCXg7qSe-36" target="f7Ms5PoCPDxHoCXg7qSe-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="310" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;exitX=0.001;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;entryX=0.999;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="f7Ms5PoCPDxHoCXg7qSe-39" target="f7Ms5PoCPDxHoCXg7qSe-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="360" as="sourcePoint" />
+            <mxPoint x="961" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-49" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Actualización exitosa&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="254.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-50" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Error en actualización&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="400" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-51" value="9. Error en la actualización" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" source="f7Ms5PoCPDxHoCXg7qSe-9" target="f7Ms5PoCPDxHoCXg7qSe-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-52" value="10. Mostrar mensaje &quot;Error al asignar rol" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.18" y="460" as="sourcePoint" />
+            <mxPoint x="84.81043478260875" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7Ms5PoCPDxHoCXg7qSe-53" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU02 - Definiendo roles a usuario&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-50" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

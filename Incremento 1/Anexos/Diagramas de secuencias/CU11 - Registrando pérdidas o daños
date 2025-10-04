@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="vLYngdrz5TQnlrlz3-MR">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="20" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="50" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-2">
+          <mxGeometry x="20" y="60" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-4" value="1. Accede a lista de cilindros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-1" target="jD-PRV-2IqCjq7IwQsY3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-5" value="16. Pérdida registrada exitosamente" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-3" target="jD-PRV-2IqCjq7IwQsY3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-6">
+          <mxGeometry x="15" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-6">
+          <mxGeometry x="15" y="200" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-9" value="2. Solicitar lista de cilindros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-3" target="jD-PRV-2IqCjq7IwQsY3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-10" value="5. Mostrar cilindros" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-8" target="jD-PRV-2IqCjq7IwQsY3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-11">
+          <mxGeometry x="15" y="270" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="870" y="200" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-12">
+          <mxGeometry x="15" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-12">
+          <mxGeometry x="15" y="210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-14" value="3. Obtener cilindros registrados" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-8" target="jD-PRV-2IqCjq7IwQsY3-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-15" value="4. Devolver lista" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-13" target="jD-PRV-2IqCjq7IwQsY3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.19" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-16" value="6. Mostrar lista de cilindros" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="jD-PRV-2IqCjq7IwQsY3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-17" value="7. Cambia estado de un cilindro" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="jD-PRV-2IqCjq7IwQsY3-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="140" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-19" value="8. Enviar ID y nuevo estado" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-2" target="jD-PRV-2IqCjq7IwQsY3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-20" value="15. Mostrar mensaje de éxito" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-18" target="jD-PRV-2IqCjq7IwQsY3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-22" value="9. Actualizar estado del cilindro" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-6" target="jD-PRV-2IqCjq7IwQsY3-21">
+          <mxGeometry x="-0.0009" relative="1" as="geometry">
+            <mxPoint x="550" y="405" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-23" value="10. Confirmación de actualización" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-21" target="jD-PRV-2IqCjq7IwQsY3-6">
+          <mxGeometry x="-0.0009" relative="1" as="geometry">
+            <mxPoint x="550" y="435" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-26" value="14. Confirmación de registro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-24" target="jD-PRV-2IqCjq7IwQsY3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-28" value="12. Insertar información logs" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-11" target="jD-PRV-2IqCjq7IwQsY3-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-29" value="13. Confirmación" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-27" target="jD-PRV-2IqCjq7IwQsY3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-30" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="200" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jD-PRV-2IqCjq7IwQsY3-30">
+          <mxGeometry x="15" y="280" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-32" value="Administrador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-33" value="V_GestionCilindros" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-34" value="C_cilindrosController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-35" value="C_historialController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-36" value="Cilindro" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-37" value="historial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-PRV-2IqCjq7IwQsY3-25" value="11. Registrar acción (usuario, acción, hora)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="jD-PRV-2IqCjq7IwQsY3-18" target="jD-PRV-2IqCjq7IwQsY3-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
