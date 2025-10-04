@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="TAb0RKAP1NGjqfVxOJ4d">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="320" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="245" y="320" width="50" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LFRakgS7o7sJjw1BPSiM-2">
+          <mxGeometry x="20" y="60" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-3" value="Usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-7" value="V_perfil" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-9" value="1. Accede a su perfil" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-1" target="LFRakgS7o7sJjw1BPSiM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-10" value="11. Mostrar mensaje &quot;Contraseña acualizada con éxito&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-8" target="LFRakgS7o7sJjw1BPSiM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-11" value="2. Mostrar opcion de cambio de contraseña" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.5000000000002" y="410" as="sourcePoint" />
+            <mxPoint x="-20.189655172413723" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-12" value="3. Ingresar contrseña actual y nueva" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="30" y="440" as="sourcePoint" />
+            <mxPoint x="269.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-13" value="4. Confirma el cambio" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="30" y="470" as="sourcePoint" />
+            <mxPoint x="270" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-15" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="40" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LFRakgS7o7sJjw1BPSiM-15">
+          <mxGeometry x="15" y="160" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-17" value="5. Solicitar cambio de contraseña" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-2" target="LFRakgS7o7sJjw1BPSiM-16">
+          <mxGeometry x="0.002" relative="1" as="geometry">
+            <mxPoint x="365" y="485" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-18" value="10. Cambio realizado correctamente" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-16" target="LFRakgS7o7sJjw1BPSiM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-19" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="40" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LFRakgS7o7sJjw1BPSiM-19">
+          <mxGeometry x="15" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LFRakgS7o7sJjw1BPSiM-19">
+          <mxGeometry x="15" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-20" value="C_usuarioController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-21" value="usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-23" value="6. Validar contraseña actual" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-16" target="LFRakgS7o7sJjw1BPSiM-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.19" y="485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-24" value="7. Confirmación validación" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-22" target="LFRakgS7o7sJjw1BPSiM-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505.00034482758605" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-28" value="9. Confirmacion de actualizacion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-26" target="LFRakgS7o7sJjw1BPSiM-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFRakgS7o7sJjw1BPSiM-27" value="8. Actualizar con la nueva contraseña" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="LFRakgS7o7sJjw1BPSiM-15" target="LFRakgS7o7sJjw1BPSiM-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B34mGC-IyjTJZyPLDB4P-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU35 - Cambiar contraseña desde el perfil&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="250" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

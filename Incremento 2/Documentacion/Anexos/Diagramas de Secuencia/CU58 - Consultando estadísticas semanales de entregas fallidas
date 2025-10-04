@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="qfs934bYVEhVe8wIreVm">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="117" y="314" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="452" y="314" width="50" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mEN2-LqNZSs62ORXzbiq-2">
+          <mxGeometry x="20" y="60" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="314" width="40" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mEN2-LqNZSs62ORXzbiq-3">
+          <mxGeometry x="15" y="105" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="732" y="314" width="40" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mEN2-LqNZSs62ORXzbiq-4">
+          <mxGeometry x="15" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-5" value="Jefe de bodega" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="72" y="274" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-6" value="V_Estadisticas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="427" y="274" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-7" value="C_estadisticasController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="677" y="274" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-8" value="Pedido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="274" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-10" value="1. Accede a estadísticas semanales" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="mEN2-LqNZSs62ORXzbiq-1" target="mEN2-LqNZSs62ORXzbiq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167" y="409" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-11" value="6. Muestra estadísticas semanales de pedidos fallados&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="mEN2-LqNZSs62ORXzbiq-9" target="mEN2-LqNZSs62ORXzbiq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-13" value="2. Solicita estadísticas semanales" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="mEN2-LqNZSs62ORXzbiq-9" target="mEN2-LqNZSs62ORXzbiq-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517" y="429" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-14" value="5. Envía estadísticas semanales d pedidos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="mEN2-LqNZSs62ORXzbiq-12" target="mEN2-LqNZSs62ORXzbiq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-16" value="3. Consulta pedidos semanal" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="mEN2-LqNZSs62ORXzbiq-12" target="mEN2-LqNZSs62ORXzbiq-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="987" y="384" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-17" value="4. Lista de pedidos semanal" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="mEN2-LqNZSs62ORXzbiq-15" target="mEN2-LqNZSs62ORXzbiq-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="987" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEN2-LqNZSs62ORXzbiq-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU58 - Consultando estadísticas semanales de entregas fallidas&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="450" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

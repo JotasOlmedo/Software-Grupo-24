@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="pF8vuem4tgAPo_lninyJ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="145" y="307" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-2" value="Jefe de bodega" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="277" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="465" y="307" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nf7A7Iii-m7ZaaHsxO18-3">
+          <mxGeometry x="20" y="60" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-5" value="V_Objetivos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="277" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="685" y="307" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nf7A7Iii-m7ZaaHsxO18-6">
+          <mxGeometry x="15" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="890" y="309" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nf7A7Iii-m7ZaaHsxO18-8">
+          <mxGeometry x="15" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-10" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="309" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Nf7A7Iii-m7ZaaHsxO18-10">
+          <mxGeometry x="15" y="188" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-12" value="C_objetivosController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="277" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-13" value="Objetivos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="875" y="277" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-14" value="Pedido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="277" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-15" value="1. Selecciona Mes/Año/Chofer y pulsa &quot;Ver cumplimientos&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-1" target="Nf7A7Iii-m7ZaaHsxO18-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="402" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-16" value="8. Mostrar gráfica de cumplimiento" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-4" target="Nf7A7Iii-m7ZaaHsxO18-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-17" value="2. Enviar filtros (mes, año, chofer)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-4" target="Nf7A7Iii-m7ZaaHsxO18-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="432" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-18" value="7. Enviar datos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-7" target="Nf7A7Iii-m7ZaaHsxO18-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-19" value="3. Consultar objetivos del período" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-7" target="Nf7A7Iii-m7ZaaHsxO18-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="432" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-20" value="4. Devolver metas definidas" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-9" target="Nf7A7Iii-m7ZaaHsxO18-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-21" value="5. Consultar pedidos/entregas realizados del período" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-7" target="Nf7A7Iii-m7ZaaHsxO18-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="512" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-22" value="6. Totales realizados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="Nf7A7Iii-m7ZaaHsxO18-11" target="Nf7A7Iii-m7ZaaHsxO18-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nf7A7Iii-m7ZaaHsxO18-23" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU62 -&amp;nbsp;Filtrando por chofer gráfica de cumplimiento de objetivos mensuales&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="219" width="530" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

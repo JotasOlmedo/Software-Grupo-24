@@ -1,0 +1,241 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="6jIykHNUMetvf8_ccwE4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VAngD32NpVNU_Y35Cuq--1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="138.93" y="108" width="20" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--2" value="Jefe de bodega" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="93.93" y="78" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="373.93" y="108" width="50" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--3">
+          <mxGeometry x="20" y="50" width="10" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--5" value="V_Reportes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="353.93000000000006" y="78" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="1058.93" y="108" width="40" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--6">
+          <mxGeometry x="15" y="452" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="828.93" y="108" width="40" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--7">
+          <mxGeometry x="15" y="350" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="663.93" y="108" width="40" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--9">
+          <mxGeometry x="15" y="60" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--9">
+          <mxGeometry x="15" y="242" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1152" y="108" width="40" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--12">
+          <mxGeometry x="15" y="70" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--14" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1347" y="108" width="40" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--14">
+          <mxGeometry x="15" y="370" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--16" value="C_PedidosController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="618.9300000000001" y="78" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--17" value="C_UsuarioController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="783.9299999999998" y="78" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--18" value="C_HistorialController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1003.9299999999998" y="78" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--19" value="Pedido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1142" y="78" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--20" value="Usuario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1433.93" y="78" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--21" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1443.93" y="110" width="40" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--21">
+          <mxGeometry x="15" y="471" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--22" value="Historial" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="78" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--23" value="1. Accede a reportes diarios" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--1" target="VAngD32NpVNU_Y35Cuq--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243.93" y="207" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--24" value="18&#39;. Mostrar mensaje &quot;Contraseña incorrecta&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--4" target="VAngD32NpVNU_Y35Cuq--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243.93" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--25" value="2. Solicita resumen de pedidos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--4" target="VAngD32NpVNU_Y35Cuq--10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.93000000000006" y="183" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--26" value="8. Mostrar reporte de pedidos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="148.43000000000006" y="310" as="targetPoint" />
+            <mxPoint x="393.9300000000003" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="333.93000000000006" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--27" value="3. Consultar pedidos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--10" target="VAngD32NpVNU_Y35Cuq--13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="963.9299999999998" y="183" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--28" value="4. Listado de pedidos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--13" target="VAngD32NpVNU_Y35Cuq--10">
+          <mxGeometry x="-0.0001" relative="1" as="geometry">
+            <mxPoint x="963.9299999999998" y="253" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--29" value="7.&amp;nbsp; Enviar reporte de pedidos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="300" as="sourcePoint" />
+            <mxPoint x="400.00000000000006" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--30" value="9. Realiza acción sensible (descargar reporte)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="148.43000000000006" y="338" as="sourcePoint" />
+            <mxPoint x="393.93000000000006" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--31" value="10.&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;Solicitar confirmación de contraseña&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--4" target="VAngD32NpVNU_Y35Cuq--11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683.93" y="243" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--32" value="11. Solicitud de contraseña" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--11" target="VAngD32NpVNU_Y35Cuq--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683.93" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--33" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;12. Mostrar campo para ingresar contraseña&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393.93000000000006" y="398" as="sourcePoint" />
+            <mxPoint x="148.43" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;13. Ingresa contraseña y confirma&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="148.43" y="438" as="sourcePoint" />
+            <mxPoint x="393.93000000000006" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--35" value="14. Enviar contraseña para validación" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403.9300000000003" y="470.00000000000045" as="sourcePoint" />
+            <mxPoint x="843.9299999999998" y="470.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--36" value="17&#39;. Denegar acción" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--8" target="VAngD32NpVNU_Y35Cuq--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.9300000000001" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--37" value="15. Validar contraseña del usuario" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--8" target="VAngD32NpVNU_Y35Cuq--15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1158.9299999999998" y="423" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--38" value="16. Resultado de validación" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--15" target="VAngD32NpVNU_Y35Cuq--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1158.9299999999998" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--39" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="537" width="1450" height="263" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--41" value="17. Registrar acción sensible realizada" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--8" target="VAngD32NpVNU_Y35Cuq--40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908.9299999999998" y="563" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--42" value="20. Confirmación" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--40" target="VAngD32NpVNU_Y35Cuq--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908.9299999999998" y="633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--44" value="18. Guardar log (usuario, acción fecha, hora)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--40" target="VAngD32NpVNU_Y35Cuq--43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1328.93" y="513" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--45" value="19. Confirmación de registro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--43" target="VAngD32NpVNU_Y35Cuq--40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1328.93" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--46" value="21. Confirmación válida, permitir acción" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="839.9999999999999" y="650" as="sourcePoint" />
+            <mxPoint x="400.00000000000006" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--47" value="22. Exportación ejecutada con éxito" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393.93000000000006" y="670" as="sourcePoint" />
+            <mxPoint x="148.43" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="689.9999999999999" as="sourcePoint" />
+            <mxPoint x="1534" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--49" value="&lt;b&gt;Contraseña válida&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="138.93" y="537" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--50" value="&lt;b&gt;Contraseña inválida&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="138.93" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU38.2 - Exportando datos sensibles&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="643.93" y="38" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--52" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1252" y="108" width="40" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--54" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VAngD32NpVNU_Y35Cuq--52">
+          <mxGeometry x="15" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--53" value="detallePedido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1222" y="78" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--55" value="5. Consultar detalles de pedidos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--10" target="VAngD32NpVNU_Y35Cuq--54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1177" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAngD32NpVNU_Y35Cuq--56" value="6. Listado detalles de pedido" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="VAngD32NpVNU_Y35Cuq--54" target="VAngD32NpVNU_Y35Cuq--10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1177" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

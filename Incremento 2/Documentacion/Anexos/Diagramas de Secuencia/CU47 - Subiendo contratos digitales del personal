@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="eTKQKN3OBdkM0jpXJY2U">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="80" y="243" width="20" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-2" value="Administrador" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="211" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="385" y="243" width="50" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5xPKbU-ml_PekQu0Xck-3">
+          <mxGeometry x="20" y="60" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-5" value="V_AdjuntoDocumentos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="211" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="620" y="241" width="40" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5xPKbU-ml_PekQu0Xck-6">
+          <mxGeometry x="15" y="140" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-8" value="C_ReporteController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="213" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="815" y="239" width="40" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5xPKbU-ml_PekQu0Xck-9">
+          <mxGeometry x="15" y="210" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-11" value="C_HistorialController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="207" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="950" y="241" width="40" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5xPKbU-ml_PekQu0Xck-12">
+          <mxGeometry x="15" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-14" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="243" width="40" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5xPKbU-ml_PekQu0Xck-14">
+          <mxGeometry x="15" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-16" value="Reporte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="211" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-17" value="Historial" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="211" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-18" value="1. Accede a adjuntar documentos&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-1" target="d5xPKbU-ml_PekQu0Xck-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="346" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-19" value="12. Mostrar mensaje &quot;Documento adjuntado correctamente&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-4" target="d5xPKbU-ml_PekQu0Xck-1">
+          <mxGeometry x="0.0016" relative="1" as="geometry">
+            <mxPoint x="205" y="416" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-20" value="2. Mostrar formulario" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="d5xPKbU-ml_PekQu0Xck-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="341" as="sourcePoint" />
+            <mxPoint x="164.5" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-21" value="3. Rellenar formulario" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="89.5" y="371" as="sourcePoint" />
+            <mxPoint x="405" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-22" value="4. Enviar formulario" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-4" target="d5xPKbU-ml_PekQu0Xck-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="366" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-23" value="Confirmación de registro de documento" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-7" target="d5xPKbU-ml_PekQu0Xck-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-24" value="5. Guardar formulario enviado" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-7" target="d5xPKbU-ml_PekQu0Xck-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="376" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-25" value="6. Confirmación de guardado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-13" target="d5xPKbU-ml_PekQu0Xck-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-26" value="7. Registrar acción realizada" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-7" target="d5xPKbU-ml_PekQu0Xck-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.5" y="486" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-27" value="10. Acción registrada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-10" target="d5xPKbU-ml_PekQu0Xck-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.5" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-28" value="8. Guardar log (usuario, acción, fecha, hora)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-10" target="d5xPKbU-ml_PekQu0Xck-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="536" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-29" value="9. Confirmación de registro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="d5xPKbU-ml_PekQu0Xck-15" target="d5xPKbU-ml_PekQu0Xck-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5xPKbU-ml_PekQu0Xck-30" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU47 - Subiendo contratos digitales del personal&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

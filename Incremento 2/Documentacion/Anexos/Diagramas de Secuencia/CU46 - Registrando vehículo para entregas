@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="zXIyS89nayh9qk26QHmB">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XYnYOUKiMszPCcyC2naP-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry y="280" width="20" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="50" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-2">
+          <mxGeometry x="20" y="70" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-5" value="17. Mostrar mensaje de exito" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-3" target="XYnYOUKiMszPCcyC2naP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-4" value="1. Accede al modulo vehiculos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-1" target="XYnYOUKiMszPCcyC2naP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-6" value="2. Mostrar formulario de registro (patente, chofer, capacidad)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="XYnYOUKiMszPCcyC2naP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="380" as="sourcePoint" />
+            <mxPoint x="240" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-7">
+          <mxGeometry x="15" y="110" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-17" value="9. Enviar datos del vehiculo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="XYnYOUKiMszPCcyC2naP-7" target="XYnYOUKiMszPCcyC2naP-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-225.18965517241395" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-8">
+          <mxGeometry x="15" y="225" width="10" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="940" y="280" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-9">
+          <mxGeometry x="15" y="305" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-11" value="3. Solicitar choferes registrados" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-2" target="XYnYOUKiMszPCcyC2naP-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="365" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-12" value="6. Entregar choferes para seleccionar" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-10" target="XYnYOUKiMszPCcyC2naP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-13" value="7. Mostrar lista con lista de choferes disponibles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="XYnYOUKiMszPCcyC2naP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="470" as="sourcePoint" />
+            <mxPoint x="240" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-14" value="8. Ingresar patente, chofer y capacidad" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="XYnYOUKiMszPCcyC2naP-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="500" as="sourcePoint" />
+            <mxPoint x="90" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-18" value="16. Confirmacion de registro" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-16" target="XYnYOUKiMszPCcyC2naP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.81034482758605" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-19" value="Administrador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-20" value="V_vehiculos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-21" value="C_usuarioController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-22" value="C_vehiculoController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-23" value="C_historialController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-25" value="12. Registrar accion &quot;Registro de vehiculo&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-16" target="XYnYOUKiMszPCcyC2naP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-26" value="15. Confirmacion de registro historial" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-24" target="XYnYOUKiMszPCcyC2naP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-27" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="280" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-27">
+          <mxGeometry x="15" y="125" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-28" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="280" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-28">
+          <mxGeometry x="15" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-29" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="280" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XYnYOUKiMszPCcyC2naP-29">
+          <mxGeometry x="15" y="325" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-31" value="4. Consultar choferes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-10" target="XYnYOUKiMszPCcyC2naP-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-32" value="5. Devolver lista de choferes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-30" target="XYnYOUKiMszPCcyC2naP-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-33" value="usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-34" value="vehiculo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-35" value="historial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-37" value="10. Validar e insertar registro" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-16" target="XYnYOUKiMszPCcyC2naP-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1111" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-38" value="11. Confirmacion de insercion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-36" target="XYnYOUKiMszPCcyC2naP-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1111" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-40" value="13. Insertar log" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-24" target="XYnYOUKiMszPCcyC2naP-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XYnYOUKiMszPCcyC2naP-41" value="14. Confirmacion insercion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="XYnYOUKiMszPCcyC2naP-39" target="XYnYOUKiMszPCcyC2naP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

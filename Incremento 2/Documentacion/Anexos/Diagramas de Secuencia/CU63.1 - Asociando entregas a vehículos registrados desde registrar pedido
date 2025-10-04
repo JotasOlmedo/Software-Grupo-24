@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="HKgjigtKQDvV78D2aCvl">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="20" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-3">
+          <mxGeometry x="20" y="60" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-5" value="1. Abre registro de pedido" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-2" target="sN8lYEgmYfisnJbfNvUb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="465" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-6" value="16. Mostrar mensaje &quot;Pedido y detalles registrados correctamente &quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-4" target="sN8lYEgmYfisnJbfNvUb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-8" value="Administrador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-10" value="V_registropedido" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-11">
+          <mxGeometry x="15" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-13" value="C_usuarioController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-15" value="2. Solicitar choferes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-4" target="sN8lYEgmYfisnJbfNvUb-14">
+          <mxGeometry x="-0.0009" relative="1" as="geometry">
+            <mxPoint x="505" y="475" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-16" value="5. Entregar choferes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-14" target="sN8lYEgmYfisnJbfNvUb-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-18" value="6. Mostrar lista de choferes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="560" as="sourcePoint" />
+            <mxPoint x="19.81034482758605" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-19" value="7. seleccionar chofer y completar datos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="sN8lYEgmYfisnJbfNvUb-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="20" y="590" as="sourcePoint" />
+            <mxPoint x="100" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-20" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="770" y="400" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-20">
+          <mxGeometry x="15" y="200" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-21" value="C_pedidoController" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-23" value="8. Registrar pedido(cliente, fecha, chofer, detalles)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-4" target="sN8lYEgmYfisnJbfNvUb-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="595" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-24" value="15. Confirmacion de registro y asociacion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-22" target="sN8lYEgmYfisnJbfNvUb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-25" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="880" y="400" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-25">
+          <mxGeometry x="15" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-26" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="400" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-26">
+          <mxGeometry x="15" y="250" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-27" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="400" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-27">
+          <mxGeometry x="15" y="210" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-28" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="400" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sN8lYEgmYfisnJbfNvUb-28">
+          <mxGeometry x="15" y="300" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-29" value="usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-31" value="3.obtener choferes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-11" target="sN8lYEgmYfisnJbfNvUb-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-32" value="4. Devolver lista" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-30" target="sN8lYEgmYfisnJbfNvUb-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-33" value="vehiculo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-34" value="pedido" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-35" value="despacho" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-37" value="9. Insertar cabecera de pedido" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-20" target="sN8lYEgmYfisnJbfNvUb-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="625" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-38" value="10. devolver id del pedido" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-36" target="sN8lYEgmYfisnJbfNvUb-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-40" value="11. Buscar vehiculo asignado al chofer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-22" target="sN8lYEgmYfisnJbfNvUb-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-41" value="12. Devolver la id del vehiculo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-39" target="sN8lYEgmYfisnJbfNvUb-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-43" value="13, Crear entrega vinculada a id de pedido, chofer y vehiculo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-20" target="sN8lYEgmYfisnJbfNvUb-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sN8lYEgmYfisnJbfNvUb-44" value="14. confirmacion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="sN8lYEgmYfisnJbfNvUb-42" target="sN8lYEgmYfisnJbfNvUb-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKo3xFJfnmVW2jiPgye_-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU63.1 - Asociando entregas a vehículos registrados desde registrar pedido&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="530" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
