@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Base de Datos - Sistema de Gestión de Cilindros</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        .diagram-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .table {
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .table-header {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .table-body {
+            padding: 0;
+        }
+        
+        .field {
+            padding: 8px 12px;
+            border-bottom: 1px solid #ecf0f1;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .field:last-child {
+            border-bottom: none;
+        }
+        
+        .field-name {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .field-type {
+            color: #7f8c8d;
+            font-size: 11px;
+        }
+        
+        .primary-key {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .foreign-key {
+            background-color: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+        }
+        
+        .relationships {
+            margin-top: 30px;
+        }
+        
+        .relationship-section {
+            margin-bottom: 20px;
+        }
+        
+        .relationship-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .relationship-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+        }
+        
+        .relationship {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #28a745;
+            font-size: 13px;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 15px;
+            border-radius: 3px;
+        }
+        
+        .pk { background-color: #ffc107; }
+        .fk { background-color: #17a2b8; }
+        .regular { background-color: #6c757d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Diagrama de Base de Datos - Sistema de Gestión de Cilindros</h1>
+        
+        <div class="diagram-container">
+            <!-- Tabla Usuario -->
+            <div class="table">
+                <div class="table-header">👤 USUARIO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">nombre</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">apellido</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">correo</span>
+                        <span class="field-type">VARCHAR(100) UNIQUE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">rut</span>
+                        <span class="field-type">VARCHAR(20) UNIQUE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">contraseña</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">rol_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Rol -->
+            <div class="table">
+                <div class="table-header">🔐 ROL</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">nombre</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">permisos</span>
+                        <span class="field-type">TEXT[]</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Cilindro -->
+            <div class="table">
+                <div class="table-header">🛢️ CILINDRO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">tipo</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">estado</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">ubicacion</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">inspeccionado</span>
+                        <span class="field-type">BOOLEAN</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">imagen</span>
+                        <span class="field-type">VARCHAR(200)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Cliente -->
+            <div class="table">
+                <div class="table-header">👥 CLIENTE</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_cliente</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">nombre</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">direccion</span>
+                        <span class="field-type">VARCHAR(200)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">telefono</span>
+                        <span class="field-type">VARCHAR(20)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Pedido -->
+            <div class="table">
+                <div class="table-header">📋 PEDIDO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_pedido</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fecha</span>
+                        <span class="field-type">DATE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">estado</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">montototal</span>
+                        <span class="field-type">NUMERIC(10,2)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">metodopago</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">cliente_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">chofer_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla DetallePedido -->
+            <div class="table">
+                <div class="table-header">📝 DETALLEPEDIDO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_detalle</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">id_pedido</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">id_cilindro</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">cantidad</span>
+                        <span class="field-type">INTEGER</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">preciounitario</span>
+                        <span class="field-type">NUMERIC(10,2)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Despacho -->
+            <div class="table">
+                <div class="table-header">🚚 DESPACHO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_despacho</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fechasalida</span>
+                        <span class="field-type">DATE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fechaentrega</span>
+                        <span class="field-type">DATE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">estado</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">pedido_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">vehiculo_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">ruta_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Vehiculo -->
+            <div class="table">
+                <div class="table-header">🚛 VEHICULO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_transporte</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">patente</span>
+                        <span class="field-type">VARCHAR(20) UNIQUE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">conductor</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">capacidad</span>
+                        <span class="field-type">INTEGER</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Ruta -->
+            <div class="table">
+                <div class="table-header">🗺️ RUTA</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_ruta</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">origen</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">destino</span>
+                        <span class="field-type">VARCHAR(100)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">distancia</span>
+                        <span class="field-type">NUMERIC(10,2)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Inventario -->
+            <div class="table">
+                <div class="table-header">📦 INVENTARIO</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla InventarioCilindros -->
+            <div class="table">
+                <div class="table-header">🔗 INVENTARIOCILINDROS</div>
+                <div class="table-body">
+                    <div class="field foreign-key">
+                        <span class="field-name">inventario_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">cilindro_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Perdida -->
+            <div class="table">
+                <div class="table-header">❌ PERDIDA</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">tipo</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">descripcion</span>
+                        <span class="field-type">TEXT</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fecha</span>
+                        <span class="field-type">DATE</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fecha_registro</span>
+                        <span class="field-type">TIMESTAMP</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">id_cilindro</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">id_usuario</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Reporte -->
+            <div class="table">
+                <div class="table-header">📊 REPORTE</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id_reporte</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">tipo</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fechageneracion</span>
+                        <span class="field-type">TIMESTAMP</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">formato</span>
+                        <span class="field-type">VARCHAR(20)</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">usuario_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Notificacion -->
+            <div class="table">
+                <div class="table-header">🔔 NOTIFICACION</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">tipo</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">mensaje</span>
+                        <span class="field-type">TEXT</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fecha</span>
+                        <span class="field-type">TIMESTAMP</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">estado</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla AlertaStock -->
+            <div class="table">
+                <div class="table-header">⚠️ ALERTASTOCK</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">umbral</span>
+                        <span class="field-type">INTEGER</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">estado</span>
+                        <span class="field-type">VARCHAR(50)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">fechageneracion</span>
+                        <span class="field-type">TIMESTAMP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla ResetToken -->
+            <div class="table">
+                <div class="table-header">🔑 RESETTOKEN</div>
+                <div class="table-body">
+                    <div class="field primary-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (PK)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">token</span>
+                        <span class="field-type">VARCHAR(200)</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">expiracion</span>
+                        <span class="field-type">TIMESTAMP</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">usado</span>
+                        <span class="field-type">BOOLEAN</span>
+                    </div>
+                    <div class="field foreign-key">
+                        <span class="field-name">usuario_id</span>
+                        <span class="field-type">INTEGER (FK)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tablas de Roles Específicos -->
+            <div class="table">
+                <div class="table-header">👨‍💼 ADMINISTRADOR</div>
+                <div class="table-body">
+                    <div class="field foreign-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (FK → usuario.id)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table">
+                <div class="table-header">📋 JEFEDEBODEGA</div>
+                <div class="table-body">
+                    <div class="field foreign-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (FK → usuario.id)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table">
+                <div class="table-header">🚗 CHOFER</div>
+                <div class="table-body">
+                    <div class="field foreign-key">
+                        <span class="field-name">id</span>
+                        <span class="field-type">INTEGER (FK → usuario.id)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relationships">
+            <div class="relationship-section">
+                <div class="relationship-title">🔗 Relaciones Principales</div>
+                <div class="relationship-list">
+                    <div class="relationship">
+                        <strong>Usuario → Rol:</strong> usuario.rol_id → rol.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Pedido → Cliente:</strong> pedido.cliente_id → cliente.id_cliente (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Pedido → Chofer:</strong> pedido.chofer_id → chofer.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>DetallePedido → Pedido:</strong> detallepedido.id_pedido → pedido.id_pedido (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>DetallePedido → Cilindro:</strong> detallepedido.id_cilindro → cilindro.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Despacho → Pedido:</strong> despacho.pedido_id → pedido.id_pedido (Uno a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Despacho → Vehiculo:</strong> despacho.vehiculo_id → vehiculo.id_transporte (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Despacho → Ruta:</strong> despacho.ruta_id → ruta.id_ruta (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Perdida → Cilindro:</strong> perdida.id_cilindro → cilindro.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Perdida → Usuario:</strong> perdida.id_usuario → usuario.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>InventarioCilindros → Inventario:</strong> inventariocilindros.inventario_id → inventario.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>InventarioCilindros → Cilindro:</strong> inventariocilindros.cilindro_id → cilindro.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Reporte → Usuario:</strong> reporte.usuario_id → usuario.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>ResetToken → Usuario:</strong> resettoken.usuario_id → usuario.id (Muchos a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Administrador → Usuario:</strong> administrador.id → usuario.id (Uno a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>JefeDeBodega → Usuario:</strong> jefedebodega.id → usuario.id (Uno a Uno)
+                    </div>
+                    <div class="relationship">
+                        <strong>Chofer → Usuario:</strong> chofer.id → usuario.id (Uno a Uno)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color pk"></div>
+                <span>Clave Primaria (PK)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color fk"></div>
+                <span>Clave Foránea (FK)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color regular"></div>
+                <span>Campo Regular</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

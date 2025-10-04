@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adjuntar Documento Proveedor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-cyan-50 via-white to-cyan-50 p-4">
+  <div class="max-w-3xl mx-auto">
+     <!-- Header  -->
+    <a href="Dashboard.html" class="inline-flex items-center gap-2 text-cyan-600 hover:text-cyan-800 mb-4">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+    </a>
+
+    <div class="text-center mb-6">
+      <div class="inline-flex items-center justify-center w-16 h-16 bg-cyan-600 rounded-2xl mb-4 shadow-lg">
+        <i data-lucide="file-plus" class="w-8 h-8 text-white"></i>
+      </div>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Adjuntar Documento de Proveedor</h1>
+      <p class="text-gray-600">Asocie certificados o contratos con control de vencimiento</p>
+    </div>
+
+     <!-- Formulario  -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 space-y-6">
+      <form id="formDocumento" class="space-y-4">
+         <!-- Tipo de documento  -->
+        <div>
+          <label class="text-sm font-medium text-gray-700">Tipo de Documento</label>
+          <input 
+            type="text" 
+            name="tipo" 
+            class="h-12 w-full border border-gray-300 rounded-md px-2" 
+            placeholder="Ingrese el tipo de documento" 
+            required
+          />
+        </div>
+
+         <!-- Versión  -->
+        <div>
+          <label class="text-sm font-medium text-gray-700">Versión</label>
+          <input type="text" name="version" class="h-12 w-full border border-gray-300 rounded-md px-2" placeholder="1.0" required/>
+        </div>
+
+         <!-- Fecha de vencimiento  -->
+        <div>
+          <label class="text-sm font-medium text-gray-700">Fecha de Vencimiento</label>
+          <input type="date" name="fecha_venc" class="h-12 w-full border border-gray-300 rounded-md px-2" required/>
+        </div>
+
+         <!-- Link al documento  -->
+        <div>
+          <label class="text-sm font-medium text-gray-700">Enlace del Documento</label>
+          <input type="url" name="direccion" class="h-12 w-full border border-gray-300 rounded-md px-2" placeholder="https://drive.google.com/..." required/>
+        </div>
+
+         <!-- Botón  -->
+        <div class="text-center">
+          <button type="submit" class="px-6 py-3 bg-cyan-600 text-white rounded-xl hover:bg-cyan-700 transition">
+            Adjuntar Documento
+          </button>
+        </div>
+      </form>
+
+      <p id="mensajeDoc" class="mt-4 text-center"></p>
+    </div>
+
+     <!-- Tabla de documentos  -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 mt-6">
+      <h2 class="text-xl font-bold mb-4 text-gray-800">Documentos</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border border-gray-200 rounded-lg">
+          <thead class="bg-cyan-100">
+            <tr>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">ID</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">Fecha Publicación</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">Fecha Vencimiento</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">Versión</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">Tipo</th>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">Link</th>
+            </tr>
+             <!-- Fila de filtros  -->
+            <tr class="bg-cyan-50">
+              <th class="px-2 py-2">
+                <input 
+                  type="text" 
+                  class="w-full border border-gray-300 rounded-md px-2 py-1 text-sm filtro-columna focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+                  data-col="0" 
+                  placeholder="Filtrar ID"
+                />
+              </th>
+              <th class="px-2 py-2">
+                <input 
+                  type="text" 
+                  class="w-full border border-gray-300 rounded-md px-2 py-1 text-sm filtro-columna focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+                  data-col="1" 
+                  placeholder="Filtrar publicación"
+                />
+              </th>
+              <th class="px-2 py-2">
+                <input 
+                  type="text" 
+                  class="w-full border border-gray-300 rounded-md px-2 py-1 text-sm filtro-columna focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+                  data-col="2" 
+                  placeholder="Filtrar vencimiento"
+                />
+              </th>
+              <th class="px-2 py-2">
+                <input 
+                  type="text" 
+                  class="w-full border border-gray-300 rounded-md px-2 py-1 text-sm filtro-columna focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+                  data-col="3" 
+                  placeholder="Filtrar versión"
+                />
+              </th>
+              <th class="px-2 py-2">
+                <input 
+                  type="text" 
+                  class="w-full border border-gray-300 rounded-md px-2 py-1 text-sm filtro-columna focus:outline-none focus:ring-2 focus:ring-cyan-500" 
+                  data-col="4" 
+                  placeholder="Filtrar tipo"
+                />
+              </th>
+              <th class="px-2 py-2"></th>
+            </tr>
+          </thead>
+          <tbody id="tablaReportes">
+             <!-- Aquí se llenará con JS  -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("formDocumento");
+    const msg = document.getElementById("mensajeDoc");
+    const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+    console.log("Usuario en sesión:", currentUser);
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      // Tomamos todos los datos del formulario
+      const data = Object.fromEntries(new FormData(form));
+
+      // Ajustamos nombre de la propiedad que espera el backend
+      data.link = data.direccion;
+      delete data.direccion;
+
+      // Agregamos tipo desde el select
+      data.tipo = data.tipo;
+
+      // Usuario en sesión
+      data.usuarioName = currentUser?.name || null;
+      data.usuario_id = currentUser?.id || null;
+
+      try {
+        const res = await fetch("http://localhost:3000/api/reporte/proveedores/adjuntar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+
+        const json = await res.json();
+        if (res.ok) {
+          msg.textContent = "Documento adjuntado correctamente ✅";
+          msg.className = "text-green-600 font-semibold text-center";
+          form.reset();
+          cargarReportes();
+        } else {
+          msg.textContent = "Error: " + json.message;
+          msg.className = "text-red-600 font-semibold text-center";
+        }
+      } catch (err) {
+        console.error("Error de conexión:", err);
+        msg.textContent = "No se pudo conectar con el servidor ❌";
+        msg.className = "text-red-600 font-semibold text-center";
+      }
+    });
+    
+    function activarFiltros() {
+      document.querySelectorAll(".filtro-columna").forEach(input => {
+        input.addEventListener("input", () => {
+          const tabla = document.getElementById("tablaReportes");
+          const filas = tabla.querySelectorAll("tr");
+
+          filas.forEach(fila => {
+            const celdas = fila.querySelectorAll("td");
+            if (celdas.length === 0) return; // Ignorar fila de encabezado
+
+            let mostrar = true;
+            document.querySelectorAll(".filtro-columna").forEach(filtro => {
+              const col = filtro.dataset.col;
+              const valorFiltro = filtro.value.toLowerCase();
+              const valorCelda = celdas[col].textContent.toLowerCase();
+              if (valorFiltro && !valorCelda.includes(valorFiltro)) mostrar = false;
+            });
+
+            fila.style.display = mostrar ? "" : "none";
+          });
+        });
+      });
+    }
+
+    async function cargarReportes() {
+      const tabla = document.getElementById("tablaReportes");
+      tabla.innerHTML = "<tr><td colspan='6' class='text-center py-4'>Cargando...</td></tr>";
+
+      try {
+        const res = await fetch("http://localhost:3000/api/reporte/proveedores/listar");
+        const reportes = await res.json();
+
+        if (reportes.length === 0) {
+          tabla.innerHTML = "<tr><td colspan='6' class='text-center py-4'>No hay reportes registrados</td></tr>";
+          return;
+        }
+
+        tabla.innerHTML = reportes.map(r => `
+          <tr class="border-b hover:bg-gray-50 transition">
+            <td class="px-4 py-2">${r.id_reporte}</td>
+            <td class="px-4 py-2">${new Date(r.fecha_pub).toLocaleDateString()}</td>
+            <td class="px-4 py-2">${new Date(r.fecha_venc).toLocaleDateString()}</td>
+            <td class="px-4 py-2">${r.version}</td>
+            <td class="px-4 py-2">${r.tipo}</td>
+            <td class="px-4 py-2"><a href="${r.direccion}" target="_blank" class="text-cyan-600 hover:underline">Ver documento</a></td>
+          </tr>
+        `).join("");
+
+        activarFiltros();
+      } catch (err) {
+        console.error("Error al cargar reportes:", err);
+        tabla.innerHTML = "<tr><td colspan='6' class='text-center py-4 text-red-600'>Error al cargar reportes</td></tr>";
+      }
+    }
+
+    // Llamamos al cargar la página
+    cargarReportes();
+
+    lucide.createIcons();
+  </script>
+</body>
+</html>

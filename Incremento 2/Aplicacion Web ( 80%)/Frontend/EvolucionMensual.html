@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Evolución Mensual de Ventas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+
+  <div class="max-w-7xl mx-auto">
+     <!-- Header  -->
+    <div class="mb-8">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900 mb-2">Evolución Mensual de Ventas</h1>
+          <p class="text-gray-600">Análisis por tipo de cilindro</p>
+        </div>
+        <a href="Dashboard.html" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-4">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+        </a>
+      </div>
+    </div>
+
+     <!-- Selector de año  -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <div class="flex items-center gap-4">
+        <label class="text-sm font-medium text-gray-700">Año:</label>
+        <select id="selectAnio" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025" selected>2025</option>
+        </select>
+        <button id="btnCargar" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Cargar Datos
+        </button>
+      </div>
+    </div>
+
+     <!-- Gráfico principal  -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">Ventas Mensuales por Tipo de Cilindro</h3>
+      <canvas id="chartEvolucion"></canvas>
+    </div>
+
+     <!-- Tabla de datos  -->
+    <div class="bg-white rounded-xl shadow-lg p-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">Detalle Mensual</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="border-b">
+              <th class="text-left py-3 px-4">Mes</th>
+              <th class="text-right py-3 px-4">5 kg</th>
+              <th class="text-right py-3 px-4">11 kg</th>
+              <th class="text-right py-3 px-4">15 kg</th>
+              <th class="text-right py-3 px-4">45 kg</th>
+              <th class="text-right py-3 px-4">Total</th>
+            </tr>
+          </thead>
+          <tbody id="tablaDetalle">
+             <!-- Se llenará dinámicamente  -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/evolucionMensual.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
