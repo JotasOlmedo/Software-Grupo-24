@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Configurar Permisos</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-green-50 via-white to-green-50 p-4">
+  <div class="max-w-4xl mx-auto">
+    <!-- Header -->
+    <div class="mb-6">
+      <a href="Dashboard.html" class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 mb-4 transition-colors duration-200">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        Volver al panel de administración
+      </a>
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-green-600 rounded-2xl mb-4 shadow-lg">
+          <i data-lucide="shield" class="w-8 h-8 text-white"></i>
+        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Configurar Permisos</h1>
+        <p class="text-gray-600">Asignar permisos por módulo para cada rol</p>
+      </div>
+    </div>
+
+    <!-- Selector de rol -->
+    <div class="shadow-xl border-0 bg-white/80 backdrop-blur-sm mb-6 p-6 rounded-xl">
+      <h2 class="flex items-center gap-2 text-xl font-semibold text-gray-900 mb-2">
+        <i data-lucide="users" class="w-5 h-5"></i>
+        Seleccionar Rol
+      </h2>
+      <p class="text-gray-600 mb-4">Elija el rol para configurar sus permisos</p>
+      <select id="selectRolPermiso" class="w-full h-12 border border-gray-300 rounded-md px-3">
+        <option value="">Seleccionar rol...</option>
+      </select>
+    </div>
+
+    <!-- Permisos dinámicos -->
+    <div id="listaPermisos" class="space-y-6 hidden"></div>
+
+    <!-- Botón guardar -->
+    <div class="flex justify-center mt-6 hidden" id="guardarWrapper">
+      <button id="btnGuardarPermisos" class="w-full max-w-md h-12 bg-green-600 hover:bg-green-700 text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl rounded-md flex items-center justify-center gap-2">
+        <i data-lucide="check-circle" class="w-4 h-4"></i>
+        <span>Guardar Cambios</span>
+      </button>
+    </div>
+  </div>
+
+  <p id="mensajePermisos"></p>
+  <script src="js/rolePermissions.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+  <script>lucide.createIcons();</script>
+
+</body>
+</html>

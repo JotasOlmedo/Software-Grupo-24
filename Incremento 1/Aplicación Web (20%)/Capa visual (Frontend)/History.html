@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Historial de Cambios</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-teal-50 via-white to-teal-50 p-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Header -->
+    <a href="Dashboard.html" class="inline-flex items-center gap-2 text-teal-600 hover:text-teal-800 mb-4">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+    </a>
+
+    <div class="text-center mb-6">
+      <div class="inline-flex items-center justify-center w-16 h-16 bg-teal-600 rounded-2xl mb-4 shadow-lg">
+        <i data-lucide="history" class="w-8 h-8 text-white"></i>
+      </div>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Historial de Cambios</h1>
+      <p class="text-gray-600">Consultar el historial de actividades del sistema</p>
+    </div>
+
+    <!-- Filtros -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 mb-6">
+      <h2 class="text-lg font-semibold flex items-center gap-2 mb-2">
+        <i data-lucide="filter" class="w-5 h-5"></i> Filtros de Búsqueda
+      </h2>
+      <p class="text-gray-600 mb-4">Utilice los filtros para encontrar actividades específicas</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div>
+          <label class="text-sm font-medium text-gray-700">Buscar</label>
+          <div class="relative">
+            <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4"></i>
+            <input type="text" id="filtroTexto" placeholder="Usuario, acción o detalles..."
+              class="pl-10 h-12 w-full border border-gray-300 rounded-md" />
+          </div>
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700">Tipo de Acción</label>
+          <select id="filtroAccion" class="h-12 w-full border border-gray-300 rounded-md px-2">
+            <option value="">Todas las acciones</option>
+            <option value="Registro de cilindros">Registro de cilindros</option>
+            <option value="Cambio de estado">Cambio de estado</option>
+            <option value="Registro de pérdida">Registro de pérdida</option>
+            <option value="Generación de reporte">Generación de reporte</option>
+            <option value="Asignación de rol">Asignación de rol</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700">Fecha Desde</label>
+          <input type="date" id="filtroDesde" class="h-12 w-full border border-gray-300 rounded-md px-2" />
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700">Fecha Hasta</label>
+          <input type="date" id="filtroHasta" class="h-12 w-full border border-gray-300 rounded-md px-2" />
+        </div>
+      </div>
+    </div>
+
+    <p id="totalRegistros"></p>
+
+    <!-- Tabla -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6">
+      <h2 class="text-lg font-semibold mb-2">Historial de Actividades</h2>
+      <p class="text-gray-600 mb-4" id="resumen"></p>
+      <div class="rounded-lg border overflow-x-auto">
+        <table class="min-w-full text-sm" id="tablaHistorial">
+          <thead class="bg-gray-50 text-gray-700">
+            <tr>
+              <th class="text-left p-2">Usuario</th>
+              <th class="text-left p-2">Fecha</th>
+              <th class="text-left p-2">Hora</th>
+              <th class="text-left p-2">Acción</th>
+              <th class="text-left p-2">Detalles</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div id="vacio" class="text-center text-gray-500 py-6 hidden">
+        <div class="w-16 h-16 bg-gray-100 rounded-full mx-auto flex items-center justify-center mb-2">
+          <i data-lucide="history" class="w-8 h-8 text-gray-400"></i>
+        </div>
+        No se encontraron registros que coincidan con los filtros.
+      </div>
+    </div>
+  </div>
+
+  <script src="js/historialCambios.js"></script>
+  <script src="js/resetRequest.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

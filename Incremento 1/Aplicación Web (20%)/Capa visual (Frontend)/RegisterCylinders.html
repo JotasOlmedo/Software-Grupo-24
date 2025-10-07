@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar Cilindros</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+  <div class="max-w-2xl mx-auto">
+    <!-- Volver -->
+    <div class="mb-6">
+      <a href="Dashboard.html" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 mb-4 transition-colors duration-200">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        Volver al panel de administración
+      </a>
+      <!-- Encabezado -->
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-purple-600 rounded-2xl mb-4 shadow-lg">
+          <i data-lucide="package" class="w-8 h-8 text-white"></i>
+        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Registrar Cilindros Nuevos</h1>
+        <p class="text-gray-600">Añadir nuevos cilindros al inventario</p>
+      </div>
+    </div>
+
+    <!-- Tarjeta -->
+    <div class="shadow-2xl border-0 bg-white/80 backdrop-blur-sm rounded-xl p-6">
+      <h2 class="text-xl font-semibold text-gray-900 mb-2">Nuevo Registro de Cilindros</h2>
+      <p class="text-gray-600 mb-6">Complete la información para registrar los cilindros</p>
+
+      <form id="formRegistroCilindro" class="space-y-6">
+
+        <!-- Tipo de cilindro -->
+        <div>
+          <label for="tipo" class="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-2">
+            <i data-lucide="package" class="w-4 h-4"></i> Tipo de Cilindro
+          </label>
+          <select id="tipoCilindro" class="w-full h-12 border border-gray-300 rounded-md px-3">
+            <option value="">Seleccione el tipo de cilindro...</option>
+            <option value="5kg">5 kg - Cilindro pequeño</option>
+            <option value="11.5kg">11 kg - Cilindro mediano</option>
+            <option value="15kg">15 kg - Cilindro estándar</option>
+            <option value="45kg">45 kg - Cilindro industrial</option>
+          </select>
+          <p id="errorTipo" class="text-red-500 text-xs mt-1 hidden"></p>
+        </div>
+
+        <!-- Cantidad -->
+        <div>
+          <label for="cantidad" class="block text-sm font-medium text-gray-700 mb-1 flex items-center gap-2">
+            <i data-lucide="hash" class="w-4 h-4"></i> Cantidad
+          </label>
+          <input type="number" id="cantidadCilindros" min="1" class="w-full h-12 px-3 border border-gray-300 rounded-md" placeholder="Ingrese la cantidad de cilindros"/>
+          <p id="errorCantidad" class="text-red-500 text-xs mt-1 hidden"></p>
+        </div>
+
+        <!-- Estado -->
+        <div class="space-y-2">
+          <label class="text-sm font-medium text-gray-700 block" for="estadoCilindro">Estado</label>
+          <select id="estadoCilindro" class="h-12 w-full border border-gray-300 rounded-md px-3">
+            <option value="">Seleccione estado...</option>
+            <option value="Lleno">Lleno</option>
+            <option value="Vacío">Vacío</option>
+          </select>
+        </div>
+
+        <!-- Vista previa -->
+        <div id="preview" class="bg-purple-50 border border-purple-200 rounded-lg p-4 hidden">
+          <div class="flex items-center gap-3">
+            <i data-lucide="check-circle" class="w-5 h-5 text-purple-600"></i>
+            <div>
+              <p class="text-sm font-medium text-purple-900">Vista previa del registro:</p>
+              <p class="text-sm text-purple-700" id="previewText"></p>
+            </div>
+          </div>
+        </div>
+
+        <p id="mensajeRegistro"></p>
+
+        <!-- Botón -->
+        <button type="submit" id="btnGuardar" class="w-full h-12 bg-purple-600 hover:bg-purple-700 text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl rounded-md flex items-center justify-center gap-2">
+          <i data-lucide="package" class="w-4 h-4"></i>
+          <span>Registrar Cilindros</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script>lucide.createIcons();</script>
+  <script src="js/registerCylinders.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+</body>
+</html>
