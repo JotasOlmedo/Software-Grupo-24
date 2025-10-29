@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="Ar2L4j1yo1a69VvPltlL">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="20" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="50" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pKcfH6G8rxDpnE65gU1a-2">
+          <mxGeometry x="20" y="260" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="170" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pKcfH6G8rxDpnE65gU1a-4">
+          <mxGeometry x="15" y="66" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pKcfH6G8rxDpnE65gU1a-4">
+          <mxGeometry x="15" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pKcfH6G8rxDpnE65gU1a-4">
+          <mxGeometry x="15" y="290" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-8" value="usuario" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="665" y="170" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-11" value="C_inventarioController" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-12" value="C_pedidoController" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-13" value="V_Notificaiones" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-16" value="notificacion" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-35" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU31 - Notificando internamente entre usuarios&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="80" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-36" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="170" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pKcfH6G8rxDpnE65gU1a-36">
+          <mxGeometry x="15" y="60" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pKcfH6G8rxDpnE65gU1a-36">
+          <mxGeometry x="15" y="280" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pKcfH6G8rxDpnE65gU1a-38" value="&lt;font face=&quot;Helvetica&quot;&gt;C_notificaionController&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-5" value="1. Generar notificación &quot;Stock bajo&quot; (cilindro, umbral, mensaje)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="pKcfH6G8rxDpnE65gU1a-6" target="3XxzNt33Yvz01bv55dLz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-6" value="7. Notificación registrada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="3XxzNt33Yvz01bv55dLz-4" target="pKcfH6G8rxDpnE65gU1a-9">
+          <mxGeometry x="0.0009" relative="1" as="geometry">
+            <mxPoint x="800" y="305" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-8" value="2. Insertar notificación (usuarioDestino, tipo, mensaje, fecha, estado)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="pKcfH6G8rxDpnE65gU1a-36" target="3XxzNt33Yvz01bv55dLz-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-9" value="3. Confirmación de inserción" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="3XxzNt33Yvz01bv55dLz-7" target="pKcfH6G8rxDpnE65gU1a-36">
+          <mxGeometry x="0.0013" relative="1" as="geometry">
+            <mxPoint x="1085" y="315" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-10" value="4. Generar notificación &quot;Entrega confirmada&quot; (pedidoId, choferId, mensaje)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="pKcfH6G8rxDpnE65gU1a-36">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="684.5" y="340" as="sourcePoint" />
+            <mxPoint x="985" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-13" value="6. Confirmación de inserción" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="3XxzNt33Yvz01bv55dLz-11" target="3XxzNt33Yvz01bv55dLz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425" y="425" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-12" value="5. Insertar notificación (usuarioDestino, tipo, mensaje, fecha, estado)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="pKcfH6G8rxDpnE65gU1a-36" target="3XxzNt33Yvz01bv55dLz-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-15" value="8. Abre la vista &quot;Notificaciones&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="pKcfH6G8rxDpnE65gU1a-1" target="3XxzNt33Yvz01bv55dLz-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-16" value="13. Mostrar bandeja de notificaciones internas" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="3XxzNt33Yvz01bv55dLz-14" target="pKcfH6G8rxDpnE65gU1a-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-18" value="9. Solicitar notificaciones del usuario (no leídas y recientes)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="pKcfH6G8rxDpnE65gU1a-2" target="3XxzNt33Yvz01bv55dLz-17">
+          <mxGeometry x="-0.0007" relative="1" as="geometry">
+            <mxPoint x="1015" y="455" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-19" value="12. Entregar lista lista para renderizar" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="3XxzNt33Yvz01bv55dLz-17" target="pKcfH6G8rxDpnE65gU1a-2">
+          <mxGeometry x="-0.0007" relative="1" as="geometry">
+            <mxPoint x="1015" y="525" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-21" value="10. Consultar notificaciones por usuario/estado" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="pKcfH6G8rxDpnE65gU1a-36" target="3XxzNt33Yvz01bv55dLz-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425" y="465" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XxzNt33Yvz01bv55dLz-22" value="11. Devolver lista de notificaciones" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="3XxzNt33Yvz01bv55dLz-20" target="pKcfH6G8rxDpnE65gU1a-36">
+          <mxGeometry x="0.0012" relative="1" as="geometry">
+            <mxPoint x="1425" y="535" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

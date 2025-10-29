@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="oDKzLxOBi1f-raEAXi0s">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="122" y="209" width="20" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-2" value="Jefe de bodega" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="87" y="179" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="417" y="209" width="50" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmszJ18I9BHuW6rM10iq-3">
+          <mxGeometry x="20" y="60" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="862" y="209" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmszJ18I9BHuW6rM10iq-4">
+          <mxGeometry x="15" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="682" y="209" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmszJ18I9BHuW6rM10iq-5">
+          <mxGeometry x="15" y="70" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-29" value="9. Realiza calculo de stock recomendado por cilindros" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="ZmszJ18I9BHuW6rM10iq-5" source="ZmszJ18I9BHuW6rM10iq-16" target="ZmszJ18I9BHuW6rM10iq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="340.00465116279076" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="50" y="340" />
+              <mxPoint x="50" y="370" />
+            </Array>
+            <mxPoint x="40" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-6" value="V_SugerenciasReabastecimiento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-7" value="C_reabastecimiento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="662" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="209" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmszJ18I9BHuW6rM10iq-8">
+          <mxGeometry x="15" y="250" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="952" y="209" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmszJ18I9BHuW6rM10iq-9">
+          <mxGeometry x="15" y="164" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-10" value="detallepedido" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="852" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-11" value="pedido" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="942" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-12" value="cilindro" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-14" value="1. Acciona el botón de generar sugerencia" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-1" target="ZmszJ18I9BHuW6rM10iq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="374" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-15" value="11. Muestra sugerencia de reabastecimiento por cilindros" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-13" target="ZmszJ18I9BHuW6rM10iq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-17" value="2. Solicita sugerencias de reabastecimiento" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-13" target="ZmszJ18I9BHuW6rM10iq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="562" y="284" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-18" value="10. Devuelve sugerencia de reabastecimiento" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-16" target="ZmszJ18I9BHuW6rM10iq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="562" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-20" value="3. Solicita detalles de los pedidos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-16" target="ZmszJ18I9BHuW6rM10iq-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="752" y="304" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-21" value="4. Devuelve lista de detalles" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-19" target="ZmszJ18I9BHuW6rM10iq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="752" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-23" value="5. Solicita pedidos" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-16" target="ZmszJ18I9BHuW6rM10iq-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872" y="454" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-24" value="6. Devuelve lista de pedidos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-22" target="ZmszJ18I9BHuW6rM10iq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872" y="524" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-26" value="7. Solicita stock actual de cilindros" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-16" target="ZmszJ18I9BHuW6rM10iq-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="554" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-27" value="8. Devuelve stock actual de cilindros" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="ZmszJ18I9BHuW6rM10iq-25" target="ZmszJ18I9BHuW6rM10iq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmszJ18I9BHuW6rM10iq-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU40 - Sugiriendo reabastecimiento de cilindros&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

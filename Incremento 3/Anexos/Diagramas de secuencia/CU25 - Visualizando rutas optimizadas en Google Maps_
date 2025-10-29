@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="9Ah720ndM7yW8vE5BLKJ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="85" y="199" width="20" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="335" y="199" width="50" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-2">
+          <mxGeometry x="20" y="60" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="815" y="199" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-3">
+          <mxGeometry x="15" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="515" y="199" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-4">
+          <mxGeometry x="15" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-5" value="Chofer" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="605" y="199" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-6">
+          <mxGeometry x="15" y="170" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-7" value="C_usuarios" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-8" value="C_rutas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-9" value="V_rutasOptimizadas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-12" value="15. Muestra la ruta optimizada en el mapa" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-10" target="yIsEGVoduJx-ZJwX4VfY-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-11" value="1. Ingresa al modulo de rutas optimizadas" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-1" target="yIsEGVoduJx-ZJwX4VfY-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="264" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-13" value="usuario" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="805" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-14" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="945" y="199" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-14">
+          <mxGeometry x="15" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-16" value="2 Solicita datos del chofer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-10" target="yIsEGVoduJx-ZJwX4VfY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="264" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-17" value="5. Retorna datos del chofer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-15" target="yIsEGVoduJx-ZJwX4VfY-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-19" value="3. Consulta datos del chofer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-15" target="yIsEGVoduJx-ZJwX4VfY-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="264" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-20" value="4. Devuelve datos del chofer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-18" target="yIsEGVoduJx-ZJwX4VfY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-23" value="6. Solicita pedidos pendientes del chofer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-10" target="yIsEGVoduJx-ZJwX4VfY-22">
+          <mxGeometry x="0.0039" relative="1" as="geometry">
+            <mxPoint x="520" y="354" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-24" value="10. Devuelve datos solicitados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-22" target="yIsEGVoduJx-ZJwX4VfY-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-26" value="7. Consulta pedidos pendientes del chofer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-22" target="yIsEGVoduJx-ZJwX4VfY-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="404" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-27" value="8. Devuelve lista de pedidos solicitados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-25" target="yIsEGVoduJx-ZJwX4VfY-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-28" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="199" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-28">
+          <mxGeometry x="15" y="240" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-29" value="cliente" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-30" value="pedido" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-32" value="9. Consulta datos del cliente con pedidos pendientes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-22" target="yIsEGVoduJx-ZJwX4VfY-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="414" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-33" value="9. Devuelve lista con datos solicitados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-31" target="yIsEGVoduJx-ZJwX4VfY-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-35" value="11. Muestra datos del chofer y pedidos pendientes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="519" as="sourcePoint" />
+            <mxPoint x="94.5" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-36" value="12. Acciona el botón de optimizar ruta" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="94.5" y="559" as="sourcePoint" />
+            <mxPoint x="355" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvWwGDaMW9I9j1TzdMm7-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU25 - Visualizando rutas optimizadas en Google Maps&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="109" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-37" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="705" y="199" width="40" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="yIsEGVoduJx-ZJwX4VfY-37">
+          <mxGeometry x="15" y="390" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-39" value="&lt;font face=&quot;Helvetica&quot;&gt;C_directionsService&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-41" value="13. Solicita la optimización de ruta" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-10" target="yIsEGVoduJx-ZJwX4VfY-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="594" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIsEGVoduJx-ZJwX4VfY-42" value="14. Devuelve la ruta optimizada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="yIsEGVoduJx-ZJwX4VfY-40" target="yIsEGVoduJx-ZJwX4VfY-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

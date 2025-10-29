@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="Y2OBs-L_dMIJh6jG_xex">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="170" y="289" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="460" y="289" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BIFuAkmaQDyWy9DtexyK-2">
+          <mxGeometry x="20" y="70" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="870" y="289" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BIFuAkmaQDyWy9DtexyK-3">
+          <mxGeometry x="15" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="660" y="289" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BIFuAkmaQDyWy9DtexyK-4">
+          <mxGeometry x="15" y="80" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-5" value="V_MapaCalor" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-6" value="Jefe de bodega" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-7" value="C_mapaCalor" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="980" y="289" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="BIFuAkmaQDyWy9DtexyK-8">
+          <mxGeometry x="15" y="190" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-9" value="pedido" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-10" value="cliente" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-12" value="1.&amp;nbsp;Selecciona rango de fechas para el mapa de calor" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-1" target="BIFuAkmaQDyWy9DtexyK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="388" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-13" value="8. Renderiza mapa de calor" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-11" target="BIFuAkmaQDyWy9DtexyK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-15" value="2.&amp;nbsp;Solicita datos del mapa de calor" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-11" target="BIFuAkmaQDyWy9DtexyK-14">
+          <mxGeometry x="0.0054" relative="1" as="geometry">
+            <mxPoint x="540" y="414" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-16" value="7. Devuelve datos solicitados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-14" target="BIFuAkmaQDyWy9DtexyK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-18" value="3.&amp;nbsp;Consulta pedidos del período" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-14" target="BIFuAkmaQDyWy9DtexyK-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="374" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-19" value="4. Devuelve pedidos del período" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-17" target="BIFuAkmaQDyWy9DtexyK-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="444" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-21" value="5.&amp;nbsp;Consulta datos de clientes por id_cliente" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-14" target="BIFuAkmaQDyWy9DtexyK-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="474" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-22" value="6.&amp;nbsp;Devuelve datos de clientes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="BIFuAkmaQDyWy9DtexyK-20" target="BIFuAkmaQDyWy9DtexyK-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="544" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIFuAkmaQDyWy9DtexyK-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU59- Generando mapa de calor de zonas de entrega&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
