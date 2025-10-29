@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "generado": "2025-10-29T06:02:50.282Z",
+    "totalPuntos": 10,
+    "direccionesUnicas": 12,
+    "periodo": "2025-09-10 - 2025-10-29",
+    "fechaInicio": "2025-09-10",
+    "fechaFin": "2025-10-29",
+    "encontradas": 8,
+    "no_encontradas": 4,
+    "porcentaje_exito": 67
+  },
+  "data": [
+    [
+      -34.1870056,
+      -70.7483476,
+      1
+    ],
+    [
+      -34.1870056,
+      -70.7483476,
+      1
+    ],
+    [
+      -34.1485762,
+      -70.7243787,
+      1
+    ],
+    [
+      -34.1485762,
+      -70.7243787,
+      1
+    ],
+    [
+      -34.1815506,
+      -70.7608678,
+      1
+    ],
+    [
+      -34.1694573,
+      -70.7579974,
+      1
+    ],
+    [
+      -34.1586974,
+      -70.7199291,
+      1
+    ],
+    [
+      -34.1695371,
+      -70.7462803,
+      1
+    ],
+    [
+      -34.1765054,
+      -70.7364909,
+      1
+    ],
+    [
+      -34.1737832,
+      -70.7130147,
+      1
+    ]
+  ],
+  "direccionesEncontradas": [
+    {
+      "direccion": "Costanera Sur 456, Rancagua",
+      "frecuencia": "2"
+    },
+    {
+      "direccion": "Yerbas Buenas 0227, Rancagua",
+      "frecuencia": "2"
+    },
+    {
+      "direccion": "Av. Independencia 890, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Av. Libertad 789, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Av. República 456, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Av. San Martín 123, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Camino al Estadio 654, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Los Aromos 890, Rancagua",
+      "frecuencia": "1"
+    }
+  ],
+  "direccionesNoEncontradas": [
+    {
+      "direccion": "Calle Luna 789, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Calle Principal 567, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Pasaje Los Tulipanes 123, Rancagua",
+      "frecuencia": "1"
+    },
+    {
+      "direccion": "Plaza de Armas 321, Rancagua",
+      "frecuencia": "1"
+    }
+  ]
+}

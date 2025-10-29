@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapa de Calor - Zonas de Entrega</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Leaflet CSS y JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Leaflet Heat Plugin -->
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+  <style>
+    #map {
+      height: 600px;
+      width: 100%;
+      border-radius: 0.75rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+
+  <div class="max-w-7xl mx-auto">
+    <!-- Encabezado -->
+    <div class="mb-8">
+      <div class="flex items-center justify-between mb-4">
+        <button 
+          onclick="window.location.href='Dashboard.html'" 
+          class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+        >
+          <i data-lucide="arrow-left" class="w-5 h-5"></i>
+          <span>Volver al Dashboard</span>
+        </button>
+        <button 
+          id="btnRegenerar"
+          class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors shadow-lg"
+        >
+          <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+          <span>Regenerar Mapa</span>
+        </button>
+      </div>
+
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-red-600 rounded-2xl mb-4 shadow-lg mx-auto">
+          <i data-lucide="map-pin" class="w-8 h-8 text-white"></i>
+        </div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Mapa de Calor - Zonas de Entrega</h1>
+        <p class="text-gray-600">Visualización de las zonas con mayor frecuencia de entregas</p>
+      </div>
+    </div>
+
+    <!-- Selector de Período -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-lg font-semibold text-gray-900 flex items-center gap-2">
+          <i data-lucide="calendar" class="w-5 h-5 text-blue-600"></i>
+          Seleccionar Período
+        </h3>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
+        <div>
+          <label for="fechaInicio" class="block text-sm font-medium text-gray-700 mb-1">
+            Fecha de Inicio
+          </label>
+          <input 
+            type="date" 
+            id="fechaInicio" 
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        
+        <div>
+          <label for="fechaFin" class="block text-sm font-medium text-gray-700 mb-1">
+            Fecha de Fin
+          </label>
+          <input 
+            type="date" 
+            id="fechaFin" 
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        
+        <div class="flex gap-2">
+          <button 
+            id="btnConsultarPeriodo"
+            class="flex-1 flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors shadow-lg"
+          >
+            <i data-lucide="search" class="w-4 h-4"></i>
+            <span>Consultar</span>
+          </button>
+          <button 
+            id="btnLimpiarFechas"
+            class="flex items-center justify-center gap-2 bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg transition-colors shadow-lg"
+            title="Volver a la última semana"
+          >
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+      
+      <div id="mensajeValidacion" class="hidden mt-3 p-3 bg-red-50 border border-red-200 rounded-lg">
+        <p class="text-sm text-red-600 flex items-center gap-2">
+          <i data-lucide="alert-circle" class="w-4 h-4"></i>
+          <span id="textoValidacion"></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Información del mapa -->
+    <div id="mapInfo" class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-blue-600" id="totalPuntos">-</div>
+          <div class="text-sm text-gray-600">Total de Entregas</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-green-600" id="direccionesUnicas">-</div>
+          <div class="text-sm text-gray-600">Direcciones Únicas</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-purple-600" id="fechaGeneracion">-</div>
+          <div class="text-sm text-gray-600">Fecha de Generación</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-orange-600" id="periodoSemana">-</div>
+          <div class="text-sm text-gray-600">Período</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="text-md font-semibold text-green-700 mb-2">Direcciones geocodificadas</h4>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-sm text-gray-700" id="infoDireccionesResumen"></span>
+            <span class="text-xs font-bold text-green-700" id="conteoEncontradas"></span>
+            <button id="btnToggleEncontradas" class="text-xs px-2 py-1 rounded bg-green-100 hover:bg-green-200 text-green-700 border border-green-300 transition-colors">Ver detalles</button>
+          </div>
+          <div id="seccionEncontradas" class="hidden">
+            <ul id="listaDireccionesEncontradas" class="list-disc ml-5 text-sm"></ul>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-md font-semibold text-red-700 mb-2">Direcciones no geocodificadas</h4>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-sm text-gray-700" id="infoDireccionesNoEncontradas"></span>
+            <span class="text-xs font-bold text-red-700" id="conteoNoEncontradas"></span>
+            <button id="btnToggleNoEncontradas" class="text-xs px-2 py-1 rounded bg-red-100 hover:bg-red-200 text-red-700 border border-red-300 transition-colors">Ver detalles</button>
+          </div>
+          <div id="seccionNoEncontradas" class="hidden">
+            <ul id="listaDireccionesNoEncontradas" class="list-disc ml-5 text-sm"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contenedor del mapa -->
+    <div class="bg-white rounded-xl shadow-lg p-6">
+      <div class="mb-4">
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">Mapa de Calor Semanal</h2>
+        <p class="text-sm text-gray-600">
+          Las zonas rojas indican mayor concentración de entregas. Las zonas azules/verdes indican menor concentración.
+        </p>
+      </div>
+      
+      <div id="map"></div>
+      
+      <div id="mensajeCarga" class="text-center py-20">
+        <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        <p class="mt-4 text-gray-600">Cargando mapa de calor...</p>
+      </div>
+
+      <div id="mensajeError" class="hidden text-center py-20">
+        <i data-lucide="alert-triangle" class="w-16 h-16 text-yellow-500 mx-auto mb-4"></i>
+        <p class="text-gray-600">No hay datos disponibles para mostrar el mapa de calor.</p>
+        <p class="text-sm text-gray-500 mt-2">El mapa se genera automáticamente los lunes o puedes regenerarlo manualmente.</p>
+      </div>
+    </div>
+
+    <!-- Leyenda -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mt-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">Leyenda del Mapa de Calor</h3>
+      <div class="flex items-center gap-8">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded" style="background: linear-gradient(to right, blue, cyan);"></div>
+          <span class="text-sm text-gray-600">Baja frecuencia</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded" style="background: linear-gradient(to right, green, yellow);"></div>
+          <span class="text-sm text-gray-600">Media frecuencia</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded" style="background: linear-gradient(to right, orange, red);"></div>
+          <span class="text-sm text-gray-600">Alta frecuencia</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center mt-8">
+      <p class="text-gray-500 text-sm">© 2025 Sistema de Inventario Valgas. Mapa de calor generado automáticamente.</p>
+    </div>
+  </div>
+
+  <script src="js/mapaCalor.js"></script>
+  <script src="js/sessionTimeout.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

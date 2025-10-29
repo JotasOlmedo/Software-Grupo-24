@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Evolución Mensual de Ventas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+
+  <div class="max-w-7xl mx-auto">
+     <!-- Header  -->
+    <div class="mb-8">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900 mb-2">Evolución Mensual de Ventas</h1>
+          <p class="text-gray-600">Análisis por tipo de cilindro</p>
+        </div>
+        <a href="Dashboard.html" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-4">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+        </a>
+      </div>
+    </div>
+
+     <!-- Selector de año  -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <div class="flex items-center gap-4">
+        <label class="text-sm font-medium text-gray-700">Año:</label>
+        <select id="selectAnio" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025" selected>2025</option>
+        </select>
+        <button id="btnCargar" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Cargar Datos
+        </button>
+      </div>
+    </div>
+
+    <!-- Nuevo módulo: Tiempo Promedio de Entrega -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+        <i data-lucide="clock" class="w-5 h-5"></i>
+        Tiempo Promedio de Entrega
+      </h3>
+      <p class="text-sm text-gray-600 mb-4">Seleccione un mes para ver el tiempo promedio de entrega</p>
+      
+      <div class="flex items-center gap-4 mb-4">
+        <label class="text-sm font-medium text-gray-700">Mes:</label>
+        <select id="selectMesTiempoEntrega" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+          <option value="1">Enero</option>
+          <option value="2">Febrero</option>
+          <option value="3">Marzo</option>
+          <option value="4">Abril</option>
+          <option value="5">Mayo</option>
+          <option value="6">Junio</option>
+          <option value="7">Julio</option>
+          <option value="8">Agosto</option>
+          <option value="9">Septiembre</option>
+          <option value="10">Octubre</option>
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
+        </select>
+        <button id="btnConsultarTiempo" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-2">
+          <i data-lucide="search" class="w-4 h-4"></i>
+          Consultar
+        </button>
+      </div>
+
+      <!-- Resultado del tiempo promedio -->
+      <div id="resultadoTiempoEntrega" class="hidden">
+        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-sm text-gray-600 mb-1">Tiempo Promedio de Entrega</p>
+              <p id="tiempoPromedioValor" class="text-3xl font-bold text-blue-600">-- días</p>
+              <p id="totalEntregasTexto" class="text-sm text-gray-500 mt-2">-- entregas realizadas</p>
+            </div>
+            <div class="bg-blue-100 rounded-full p-4">
+              <i data-lucide="truck" class="w-8 h-8 text-blue-600"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mensaje cuando no hay datos -->
+      <div id="mensajeNoEntregas" class="hidden">
+        <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+          <p class="text-sm text-yellow-800 flex items-center gap-2">
+            <i data-lucide="info" class="w-4 h-4"></i>
+            No hay entregas registradas para el mes
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Fin del nuevo módulo -->
+
+     <!-- Gráfico principal  -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">Ventas Mensuales por Tipo de Cilindro</h3>
+      <canvas id="chartEvolucion"></canvas>
+    </div>
+
+     <!-- Nueva sección: Comparativa por Tipo de Cilindro (Caso de Uso 55) -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">
+        <i data-lucide="bar-chart-3" class="w-5 h-5 inline-block mr-2"></i>
+        Comparativa por Tipo de Cilindro
+      </h3>
+      <p class="text-sm text-gray-600 mb-4">Seleccione uno o más tipos de cilindro y un mes para comparar volúmenes de ventas</p>
+      
+      <!-- Controles de selección -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <!-- Selector de tipos de cilindro -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Tipos de Cilindro:</label>
+          <div class="space-y-2">
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" value="5kg" class="tipo-checkbox w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500" checked>
+              <span class="text-sm">Cilindro 5 kg</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" value="11kg" class="tipo-checkbox w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500" checked>
+              <span class="text-sm">Cilindro 11 kg</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" value="15kg" class="tipo-checkbox w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500" checked>
+              <span class="text-sm">Cilindro 15 kg</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" value="45kg" class="tipo-checkbox w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500" checked>
+              <span class="text-sm">Cilindro 45 kg</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Selector de mes -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Mes:</label>
+          <select id="selectMesComparativa" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+          </select>
+          
+          <button id="btnGenerarComparativa" class="mt-4 w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center justify-center gap-2">
+            <i data-lucide="bar-chart" class="w-4 h-4"></i>
+            Generar Comparativa
+          </button>
+        </div>
+      </div>
+
+      <!-- Gráfico de barras comparativo -->
+      <div class="mt-6">
+        <canvas id="chartComparativa"></canvas>
+      </div>
+
+      <!-- Mensaje informativo cuando no hay datos -->
+      <div id="mensajeNoData" class="hidden mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+        <p class="text-sm text-yellow-800">
+          <i data-lucide="info" class="w-4 h-4 inline-block mr-1"></i>
+          No hay datos disponibles para la selección actual. Por favor, seleccione al menos un tipo de cilindro.
+        </p>
+      </div>
+    </div>
+    <!-- Fin de la nueva sección -->
+
+    <!-- Tabla de datos  -->
+    <div class="bg-white rounded-xl shadow-lg p-6">
+      <h3 class="text-lg font-semibold text-gray-900 mb-4">Detalle Mensual</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="border-b">
+              <th class="text-left py-3 px-4">Mes</th>
+              <th class="text-right py-3 px-4">5 kg</th>
+              <th class="text-right py-3 px-4">11 kg</th>
+              <th class="text-right py-3 px-4">15 kg</th>
+              <th class="text-right py-3 px-4">45 kg</th>
+              <th class="text-right py-3 px-4">Total</th>
+            </tr>
+          </thead>
+          <tbody id="tablaDetalle">
+             <!-- Se llenará dinámicamente  -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/evolucionMensual.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

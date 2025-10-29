@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rutas Optimizadas - Valgas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+  <div class="min-h-screen">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg">
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-3xl font-bold mb-2">🗺️ Rutas Optimizadas</h1>
+            <p class="text-blue-100">Visualiza tu ruta de entregas optimizada con Google Maps</p>
+          </div>
+          <button onclick="window.history.back()" class="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition">
+            <i class="fas fa-arrow-left mr-2"></i>Volver
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8">
+      <!-- Driver Info Card -->
+      <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h2 class="text-xl font-semibold text-gray-800">Información del Chofer</h2>
+            <p class="text-gray-600" id="choferNombre">Cargando...</p>
+          </div>
+          <div class="text-right">
+            <p class="text-sm text-gray-500">Entregas pendientes</p>
+            <p class="text-3xl font-bold text-blue-600" id="totalEntregas">0</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Route Controls -->
+      <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <div class="flex flex-wrap gap-4 items-center justify-between">
+          <div class="flex gap-4">
+            <button id="btnOptimizarRuta" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition flex items-center gap-2">
+              <i class="fas fa-route"></i>
+              Optimizar Ruta
+            </button>
+            <button id="btnIniciarRuta" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition flex items-center gap-2 hidden">
+              <i class="fas fa-play"></i>
+              Iniciar Ruta
+            </button>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="text-right">
+              <p class="text-sm text-gray-500">Distancia Total</p>
+              <p class="text-xl font-bold text-gray-800" id="distanciaTotal">-- km</p>
+            </div>
+            <div class="text-right">
+              <p class="text-sm text-gray-500">Tiempo Estimado</p>
+              <p class="text-xl font-bold text-gray-800" id="tiempoEstimado">-- min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map and Deliveries Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Map Container -->
+        <div class="lg:col-span-2">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="bg-gray-100 px-6 py-3 border-b">
+              <h3 class="font-semibold text-gray-800">Mapa de Ruta</h3>
+            </div>
+            <div id="map" class="w-full h-[600px]"></div>
+          </div>
+        </div>
+
+        <!-- Deliveries List -->
+        <div class="lg:col-span-1">
+          <div class="bg-white rounded-lg shadow-md">
+            <div class="bg-gray-100 px-6 py-3 border-b">
+              <h3 class="font-semibold text-gray-800">Lista de Entregas</h3>
+            </div>
+            <div id="listaEntregas" class="divide-y max-h-[600px] overflow-y-auto">
+              <!-- Deliveries will be loaded here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFXLY0wMuhZPWlqawb1b5i2gr6A9osSNk&libraries=places,geometry"></script>
+  <script src="js/rutasOptimizadas.js"></script>
+</body>
+</html>
