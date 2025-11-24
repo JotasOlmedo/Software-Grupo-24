@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar Pedido</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-teal-50 via-white to-teal-50 p-4">
+  <div class="max-w-3xl mx-auto">
+    <!-- Header -->
+    <a href="Dashboard.html" class="inline-flex items-center gap-2 text-teal-600 hover:text-teal-800 mb-4">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+    </a>
+
+    <div class="text-center mb-6">
+      <div class="inline-flex items-center justify-center w-16 h-16 bg-teal-600 rounded-2xl mb-4 shadow-lg">
+        <i data-lucide="package" class="w-8 h-8 text-white"></i>
+      </div>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Registrar Nuevo Pedido</h1>
+      <p class="text-gray-600">Seleccione un cliente y complete los datos del pedido</p>
+    </div>
+
+    <!-- Formulario de Pedido -->
+    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-6 space-y-6">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="text-sm font-medium text-gray-700">Cliente</label>
+          <select id="pedidoClienteId" class="h-12 w-full border border-gray-300 rounded-md px-2">
+            <option value="">Seleccione un cliente</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700">Fecha del Pedido</label>
+          <input type="date" id="pedidoFecha" class="h-12 w-full border border-gray-300 rounded-md px-2"/>
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700">Método de Pago</label>
+          <select id="pedidoMetodoPago" class="h-12 w-full border border-gray-300 rounded-md px-2">
+            <option value="">Seleccione método</option>
+            <option value="Efectivo">Efectivo</option>
+            <option value="Tarjeta">Tarjeta</option>
+            <option value="Transferencia">Transferencia</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-sm font-medium text-gray-700">Chofer</label>
+          <select id="pedidoChoferId" class="h-12 w-full border border-gray-300 rounded-md px-2">
+            <option value="">Seleccione un chofer</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Detalles del Pedido -->
+      <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl p-4">
+        <h2 class="text-lg font-bold mb-2 text-gray-800">Detalles del Pedido</h2>
+
+        <div id="detallesContainer" class="space-y-2">
+          <!-- Fila base de detalle -->
+          <div class="detalleRow grid grid-cols-3 gap-2">
+          </div>
+        </div>
+
+        <button type="button" id="agregarDetalle" class="mt-2 px-6 py-2 bg-teal-600 text-white rounded-xl hover:bg-teal-700 transition">
+          + Agregar Detalle
+        </button>
+      </div>
+
+      <!-- Botón registrar todo -->
+      <div class="text-center">
+        <button id="registrarPedido" class="px-6 py-3 bg-teal-600 text-white rounded-xl hover:bg-teal-700 transition">
+          Registrar Pedido
+        </button>
+      </div>
+
+      <p id="mensajePedido" class="mt-4 text-center"></p>
+    </div>
+  </div>
+
+  <script src="js/registroPedido.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

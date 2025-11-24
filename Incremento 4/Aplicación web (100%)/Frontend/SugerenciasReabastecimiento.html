@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sugerencias de Reabastecimiento</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- jsPDF y AutoTable para exportar a PDF en el navegador -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body class="min-h-screen bg-gray-50 p-4">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex items-center justify-between mb-6">
+      <button onclick="window.location.href='Dashboard.html'" class="text-blue-600 hover:underline">← Volver</button>
+      <div class="flex gap-2">
+        <button id="btnExportar" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded">Exportar CSV</button>
+        <button id="btnExportarPDF" class="bg-rose-600 hover:bg-rose-700 text-white px-4 py-2 rounded">Exportar PDF</button>
+        <button id="btnGenerar" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Generar</button>
+      </div>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow mb-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-3 items-end">
+        <div>
+          <label class="text-sm text-gray-600">Fecha inicio</label>
+          <input id="fi" type="date" class="w-full border rounded px-3 py-2" />
+        </div>
+        <div>
+          <label class="text-sm text-gray-600">Fecha fin</label>
+          <input id="ff" type="date" class="w-full border rounded px-3 py-2" />
+        </div>
+        <div>
+          <label class="text-sm text-gray-600">Horizonte (días)</label>
+          <input id="horizonte" type="number" min="1" value="14" class="w-full border rounded px-3 py-2" />
+        </div>
+        <div>
+          <label class="text-sm text-gray-600">Seguridad (%)</label>
+          <input id="safety" type="number" step="0.05" value="0.2" class="w-full border rounded px-3 py-2" />
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded shadow p-4">
+      <!-- Ayuda/Explicación simple -->
+      <details class="mb-4">
+        <summary class="cursor-pointer text-sm text-gray-700 font-bold">¿Qué significa cada columna? (explicación simple)</summary>
+        <div class="mt-2 text-sm text-gray-600 space-y-2">
+          <p><strong>Vendidos</strong>: Cuántas unidades se vendieron en las fechas elegidas.</p>
+          <p><strong>Prom. diario</strong>: En promedio, cuántas unidades se venden por día.</p>
+          <p><strong>Factor</strong>: Ajusta por la época del año (si suele haber más o menos demanda). 1 = normal, mayor a 1 = más demanda.</p>
+          <p><strong>Horizonte</strong>: Cantidad de días hacia adelante que queremos cubrir.</p>
+          <p><strong>Demanda</strong>: Lo que se estima que se venderá en ese horizonte (considerando el factor de época).</p>
+          <p><strong>Seguridad</strong>: Un extra por si hay imprevistos (porcentaje configurable).</p>
+          <p><strong>Sugerido</strong>: Lo que conviene reponer para que alcance: Demanda + Seguridad − Stock actual. Nunca será negativo.</p>
+          <p><strong>Riesgo</strong>: Semáforo de urgencia según cuántos días alcanza el stock actual.
+            <span class="inline-block ml-2 px-2 py-0.5 rounded text-xs bg-red-100 text-red-700">Rojo</span> alto,
+            <span class="inline-block px-2 py-0.5 rounded text-xs bg-amber-100 text-amber-700">Amarillo</span> medio,
+            <span class="inline-block px-2 py-0.5 rounded text-xs bg-emerald-100 text-emerald-700">Verde</span> bajo.
+          </p>
+        </div>
+      </details>
+      <div id="resumen" class="mb-3 text-sm text-gray-700"></div>
+      <p class="text-center text-gray-600 mb-3 text-xs italic">
+        <strong>Nota:</strong> Las sugerencias dependen del período de tiempo, promedio de ventas diario y periodo del horizonte seleccionado. (Procurar ajustar el periodo igual o cercano al horizonte)
+      </p>
+      <div class="overflow-auto">
+        <table class="min-w-full text-sm">
+          <thead>
+            <tr class="bg-gray-100 text-gray-700">
+              <th class="text-center p-2" title="Tipo de cilindro (ej: 5kg, 11kg)">Tipo</th>
+              <th class="text-center p-2" title="Unidades vendidas en el período seleccionado">Vendidos</th>
+              <th class="text-center p-2" title="Promedio de ventas diarias">Prom. diario</th>
+              <th class="text-center p-2" title="Ajuste por época del año (1 = normal)">Factor</th>
+              <th class="text-center p-2" title="Unidades llenas disponibles hoy">Stock</th>
+              <th class="text-center p-2" title="Días que queremos cubrir hacia adelante">Horizonte</th>
+              <th class="text-center p-2" title="Lo que se estima vender en el horizonte">Demanda</th>
+              <th class="text-center p-2" title="Extra por seguridad ante imprevistos">Seguridad</th>
+              <th class="text-center p-2" title="Lo que conviene reponer (Demanda + Seguridad − Stock)">Sugerido</th>
+              <th class="text-center p-2" title="Semáforo de urgencia (Rojo/Amarillo/Verde)">Riesgo</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/reabastecimiento.js"></script>
+</body>
+</html>

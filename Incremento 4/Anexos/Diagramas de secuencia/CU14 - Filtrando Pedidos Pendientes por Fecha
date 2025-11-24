@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Página-1" id="EcEFmL6fl8Q11jGBZtwt">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU14 - Filtrando Pedidos Pendientes por Fecha&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="340" x="270" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="400" width="20" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" value="" vertex="1">
+          <mxGeometry height="400" width="50" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-6" parent="khHoKY6s4nG-UsdX0YU6-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-15" parent="khHoKY6s4nG-UsdX0YU6-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="20" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-21" edge="1" parent="khHoKY6s4nG-UsdX0YU6-3" source="khHoKY6s4nG-UsdX0YU6-15" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="khHoKY6s4nG-UsdX0YU6-15" value="8. Filtrar pedidos por rango de fecha (filtrado local en JavaScript)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="225" />
+              <mxPoint x="50" y="250" />
+            </Array>
+            <mxPoint x="70" y="230" as="sourcePoint" />
+            <mxPoint x="75" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-22" edge="1" parent="khHoKY6s4nG-UsdX0YU6-3" source="khHoKY6s4nG-UsdX0YU6-15" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="khHoKY6s4nG-UsdX0YU6-15" value="9. Actualizar vista con pedidos filtrados (renderizarPedidos)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="310" />
+              <mxPoint x="50" y="335" />
+            </Array>
+            <mxPoint x="40" y="310" as="sourcePoint" />
+            <mxPoint x="40" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-9" parent="khHoKY6s4nG-UsdX0YU6-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="15" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="787" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-12" parent="khHoKY6s4nG-UsdX0YU6-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="15" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-7" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="khHoKY6s4nG-UsdX0YU6-6" value="1. Abre la vista &quot;Editar Pedidos&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-8" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="khHoKY6s4nG-UsdX0YU6-2" value="6. Mostrar todos los pedidos en pantalla">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-10" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="khHoKY6s4nG-UsdX0YU6-9" value="2. Solicitar todos los pedidos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-11" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-9" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="khHoKY6s4nG-UsdX0YU6-6" value="5. Entregar lista de pedidos para renderizar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-13" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="khHoKY6s4nG-UsdX0YU6-12" value="3. Consultar todos los pedidos.">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="625" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-14" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-12" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="khHoKY6s4nG-UsdX0YU6-4" value="4. Devolver lista completa de pedidos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-16" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="khHoKY6s4nG-UsdX0YU6-15" value="7. Elige un rango de fecha y confirma aplicar los filtros">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="425" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-17" edge="1" parent="1" source="khHoKY6s4nG-UsdX0YU6-15" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="khHoKY6s4nG-UsdX0YU6-2" value="10. Mostrar pedidos dentro del rango definido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Administrador/Jefe de bodega" vertex="1">
+          <mxGeometry height="30" width="60" x="-10" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="V_editarpedido" vertex="1">
+          <mxGeometry height="30" width="60" x="275" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C_pedidoController" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="khHoKY6s4nG-UsdX0YU6-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="pedidos" vertex="1">
+          <mxGeometry height="30" width="60" x="777" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Página-1" id="gTKymoLSsIPhyLhcaY_q">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU61 - Generando código QR&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="330" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="400" width="20" x="-50" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" value="" vertex="1">
+          <mxGeometry height="400" width="50" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-24" parent="mEo2Vw9HgzQOck9twLEJ-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-33" parent="mEo2Vw9HgzQOck9twLEJ-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-36" parent="mEo2Vw9HgzQOck9twLEJ-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-41" edge="1" parent="mEo2Vw9HgzQOck9twLEJ-3" source="mEo2Vw9HgzQOck9twLEJ-36" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="mEo2Vw9HgzQOck9twLEJ-36" value="&lt;div&gt;11. Convertir canvas a imagen PNG y descargar&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="320" />
+              <mxPoint x="60" y="350" />
+            </Array>
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="40" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="540" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-27" parent="mEo2Vw9HgzQOck9twLEJ-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="15" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="787" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-30" parent="mEo2Vw9HgzQOck9twLEJ-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="15" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Administrador/Jefe de bodega" vertex="1">
+          <mxGeometry height="30" width="60" x="-70" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="V_adjuntodocumento" vertex="1">
+          <mxGeometry height="30" width="60" x="275" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C_reporteController" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="reporte" vertex="1">
+          <mxGeometry height="30" width="60" x="777" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-25" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="mEo2Vw9HgzQOck9twLEJ-24" value="1. Accede al apartado de documentos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-26" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="mEo2Vw9HgzQOck9twLEJ-2" value="6. Mostrar tabla de documentos con opción de generar QR">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-28" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="mEo2Vw9HgzQOck9twLEJ-27" value="2. Solicitar lista de documentos">
+          <mxGeometry relative="1" x="-0.0021" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="485" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-29" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="mEo2Vw9HgzQOck9twLEJ-24" value="5. Entregar lista de documentos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-31" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-27" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="mEo2Vw9HgzQOck9twLEJ-30" value="3. Consultar documentos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="732" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-32" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-30" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="mEo2Vw9HgzQOck9twLEJ-27" value="4. Devolver lista de documentos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="732" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-34" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="mEo2Vw9HgzQOck9twLEJ-33" value="7. Selecciona &quot;Generar QR&quot; para un documento específico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-35" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-33" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="mEo2Vw9HgzQOck9twLEJ-2" value="9. Mostrar QR generado para el documento solicitado en modal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-37" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="mEo2Vw9HgzQOck9twLEJ-36" value="10. Descarga el código QR (opcional)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="635" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-38" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-36" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="mEo2Vw9HgzQOck9twLEJ-2" value="12. Archivo descargado desde el QR">
+          <mxGeometry relative="1" x="0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="230" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mEo2Vw9HgzQOck9twLEJ-40" edge="1" parent="1" source="mEo2Vw9HgzQOck9twLEJ-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="mEo2Vw9HgzQOck9twLEJ-3" value="8. Generar código QR con el enlace del documento (QRCode.js)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="550" />
+              <mxPoint x="340" y="580" />
+            </Array>
+            <mxPoint x="380" y="540" as="sourcePoint" />
+            <mxPoint x="385" y="570.0344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

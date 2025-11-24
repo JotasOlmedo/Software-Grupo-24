@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mensajes Fijados</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 p-4">
+
+  <div class="max-w-4xl mx-auto">
+     <!-- Header  -->
+    <div class="mb-8">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900 mb-2">Mensajes Fijados</h1>
+          <p class="text-gray-600">Publicar anuncios importantes para el equipo</p>
+        </div>
+        <a href="Dashboard.html" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-4">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al panel de administración
+        </a>
+      </div>
+    </div>
+
+     <!-- Formulario para crear mensaje  -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+      <h2 class="text-xl font-semibold text-gray-900 mb-4">Crear Nuevo Mensaje</h2>
+      <form id="formMensaje" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Título *</label>
+          <input type="text" id="titulo" required maxlength="200" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500" placeholder="Título del mensaje">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Contenido *</label>
+          <textarea id="contenido" required rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500" placeholder="Escribe el mensaje aquí..."></textarea>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Fecha de Expiración (opcional)</label>
+          <input type="datetime-local" id="fechaExpiracion" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+        </div>
+        <button type="submit" class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Publicar Mensaje
+        </button>
+      </form>
+    </div>
+
+     <!-- Lista de mensajes activos  -->
+    <div class="bg-white rounded-xl shadow-lg p-6">
+      <h2 class="text-xl font-semibold text-gray-900 mb-4">Mensajes Activos</h2>
+      <div id="listaMensajes" class="space-y-4">
+         <!-- Se llenará dinámicamente  -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/mensajesFijados.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

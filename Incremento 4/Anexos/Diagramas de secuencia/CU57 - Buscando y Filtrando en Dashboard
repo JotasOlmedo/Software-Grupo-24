@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Página-1" id="blKA5QV01SfGPb36lGaT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CU57 - Buscando y Filtrando en Dashboard&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="310" x="315" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="400" width="20" x="-20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" value="" vertex="1">
+          <mxGeometry height="400" width="50" x="310" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-27" parent="hz0pAau5JGIU9iA-FFJ6-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-33" parent="hz0pAau5JGIU9iA-FFJ6-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-37" edge="1" parent="hz0pAau5JGIU9iA-FFJ6-4" source="hz0pAau5JGIU9iA-FFJ6-4" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="hz0pAau5JGIU9iA-FFJ6-27" value="8. Filtrar secciones y subsecciones según permisos del usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="170" />
+              <mxPoint x="60" y="190" />
+            </Array>
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="65" y="230.0344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-38" edge="1" parent="hz0pAau5JGIU9iA-FFJ6-4" source="hz0pAau5JGIU9iA-FFJ6-4" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="hz0pAau5JGIU9iA-FFJ6-27" value="9. Renderizar todas las secciones y módulos accesibles (renderSecciones)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="200" />
+              <mxPoint x="60" y="220" />
+            </Array>
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="75" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-40" edge="1" parent="hz0pAau5JGIU9iA-FFJ6-4" source="hz0pAau5JGIU9iA-FFJ6-33" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="hz0pAau5JGIU9iA-FFJ6-33" value="12. Filtrar secciones y subsecciones por término de búsqueda (filtrado local)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="300" />
+              <mxPoint x="60" y="320" />
+            </Array>
+            <mxPoint x="30" y="300" as="sourcePoint" />
+            <mxPoint x="35" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="570" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-30" parent="hz0pAau5JGIU9iA-FFJ6-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="15" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="817" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-44" parent="hz0pAau5JGIU9iA-FFJ6-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="15" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Administrador/Jefe de bodega" vertex="1">
+          <mxGeometry height="30" width="60" x="-40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="V_dashboard" vertex="1">
+          <mxGeometry height="30" width="60" x="305" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C_rolController" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="roles" vertex="1">
+          <mxGeometry height="30" width="60" x="807" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="400" width="40" x="1050" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-47" parent="hz0pAau5JGIU9iA-FFJ6-25" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="15" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="permisos" vertex="1">
+          <mxGeometry height="30" width="60" x="1040" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-29" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="hz0pAau5JGIU9iA-FFJ6-3" value="10. Mostrar todos los módulos accesibles por el usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-28" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="hz0pAau5JGIU9iA-FFJ6-27" value="1. Accede al dashboard">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-31" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-27" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="hz0pAau5JGIU9iA-FFJ6-30" value="2. Solicitar permisos del rol del usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-32" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-30" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="hz0pAau5JGIU9iA-FFJ6-4" value="7. Entregar lista de permisos para filtrar módulos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-35" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-33" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="hz0pAau5JGIU9iA-FFJ6-3" value="13. Mostrar solo las secciones y subsecciones solicitadas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-34" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="hz0pAau5JGIU9iA-FFJ6-33" value="11. Utiliza la barra de búsqueda para buscar el módulo específico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="585" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-45" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="hz0pAau5JGIU9iA-FFJ6-44" value="3. Consultar permisos por rol_id">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="762" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-46" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-44" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="hz0pAau5JGIU9iA-FFJ6-9" value="6. Devolver permisos del rol">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="762" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-48" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="hz0pAau5JGIU9iA-FFJ6-47" value="4. Obtener permisos asociados al rol">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hz0pAau5JGIU9iA-FFJ6-49" edge="1" parent="1" source="hz0pAau5JGIU9iA-FFJ6-47" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="hz0pAau5JGIU9iA-FFJ6-44" value="5. Devolver lista de permisos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

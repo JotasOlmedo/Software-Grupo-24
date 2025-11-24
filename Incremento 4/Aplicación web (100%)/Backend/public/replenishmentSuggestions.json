@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generado": "2025-10-23T02:36:59.013Z",
+    "periodo": {
+      "inicio": "2025-09-23",
+      "fin": "2025-10-23"
+    },
+    "horizonte_dias": 24,
+    "safety_pct": 0.2,
+    "total_tipos": 4,
+    "total_sugerido": 12
+  },
+  "sugerencias": [
+    {
+      "tipo": "5kg",
+      "vendidos_periodo": 10,
+      "promedio_diario": 0.32,
+      "factor_estacional": 1,
+      "stock_actual": 1,
+      "horizonte_dias": 24,
+      "demanda_proyectada": 8,
+      "stock_seguridad": 2,
+      "sugerido_reabastecer": 9,
+      "riesgo": "Medio"
+    },
+    {
+      "tipo": "15kg",
+      "vendidos_periodo": 0,
+      "promedio_diario": 0.1,
+      "factor_estacional": 1,
+      "stock_actual": 1,
+      "horizonte_dias": 24,
+      "demanda_proyectada": 3,
+      "stock_seguridad": 1,
+      "sugerido_reabastecer": 2,
+      "riesgo": "Medio"
+    },
+    {
+      "tipo": "45kg",
+      "vendidos_periodo": 3,
+      "promedio_diario": 0.1,
+      "factor_estacional": 1,
+      "stock_actual": 2,
+      "horizonte_dias": 24,
+      "demanda_proyectada": 3,
+      "stock_seguridad": 1,
+      "sugerido_reabastecer": 1,
+      "riesgo": "Bajo"
+    },
+    {
+      "tipo": "11.5kg",
+      "vendidos_periodo": 1,
+      "promedio_diario": 0.03,
+      "factor_estacional": 1,
+      "stock_actual": 1,
+      "horizonte_dias": 24,
+      "demanda_proyectada": 1,
+      "stock_seguridad": 1,
+      "sugerido_reabastecer": 0,
+      "riesgo": "Bajo"
+    }
+  ]
+}
